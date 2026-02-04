@@ -69,7 +69,7 @@ class BrownCourseScraper:
             print("Waiting for course list to load...")
             # Wait for search results to appear
             WebDriverWait(self.driver, 15).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, ".result"))
+                EC.presence_of_element_located((By.CSS_SELECTOR, ".result.result--group-start"))
             )
             
             time.sleep(2)  # Additional wait for all courses to render
@@ -124,7 +124,7 @@ class BrownCourseScraper:
         while course_index < total_courses:
             try:
                 # Get all course elements (re-fetch to avoid stale references)
-                course_elements = self.driver.find_elements(By.CSS_SELECTOR, ".result")
+                course_elements = self.driver.find_elements(By.CSS_SELECTOR, ".result.result--group-start")
                 
                 if course_index >= len(course_elements):
                     print("No more courses found")
@@ -196,7 +196,7 @@ class BrownCourseScraper:
             
             # Course code (e.g., "AFRI 0370")
             try:
-                code_element = course_element.find_element(By.CSS_SELECTOR, ".result--group-start")
+                code_element = course_element.find_element(By.CSS_SELECTOR, ".result__code")
                 course_data['course_code'] = code_element.text.strip()
                 course_data['department'] = self.extract_department(course_data['course_code'])
             except:
@@ -210,24 +210,35 @@ class BrownCourseScraper:
             except:
                 course_data['course_name'] = ""
             
-            # Section
+            # Section - extract from the part section
             try:
-                section_element = course_element.find_element(By.CSS_SELECTOR, ".result__section")
-                course_data['section'] = section_element.text.strip()
+                part_section = course_element.find_element(By.CSS_SELECTOR, ".result__part")
+                # Section is in the flex--3 span
+                section_element = part_section.find_element(By.CSS_SELECTOR, ".result__flex--3")
+                section_text = section_element.text.strip()
+                course_data['section'] = section_text
             except:
                 course_data['section'] = ""
             
-            # Course times
+            # Course times - in flex--grow span
             try:
-                time_element = course_element.find_element(By.CSS_SELECTOR, ".result__time")
-                course_data['course_times'] = time_element.text.strip()
+                time_element = course_element.find_element(By.CSS_SELECTOR, ".flex--grow")
+                time_text = time_element.text.strip()
+                # Remove "Meets:" prefix if present
+                if "Meets:" in time_text:
+                    time_text = time_text.replace("Meets:", "").strip()
+                course_data['course_times'] = time_text
             except:
                 course_data['course_times'] = ""
             
-            # Instructor
+            # Instructor - in result__flex--9 text--right span
             try:
-                instructor_element = course_element.find_element(By.CSS_SELECTOR, ".result__instructor")
-                course_data['instructor'] = instructor_element.text.strip()
+                instructor_element = course_element.find_element(By.CSS_SELECTOR, ".result__flex--9.text--right")
+                instructor_text = instructor_element.text.strip()
+                # Remove "Instructor:" prefix if present
+                if "Instructor:" in instructor_text:
+                    instructor_text = instructor_text.replace("Instructor:", "").strip()
+                course_data['instructor'] = instructor_text
             except:
                 course_data['instructor'] = ""
             
@@ -251,36 +262,35 @@ class BrownCourseScraper:
         }
         
         try:
-            # Wait for detail page to load
-            WebDriverWait(self.driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, ".course-title"))
-            )
+            # Wait for detail page to load - try multiple selectors
+            time.sleep(1)
             
-            # Extract CRN from section info
+            # Try to get the entire page text and parse it
             try:
-                section_info = self.driver.find_element(By.CSS_SELECTOR, ".course-section-info")
-                crn_match = re.search(r'CRN\s+(\d+)', section_info.text)
+                page_text = self.driver.find_element(By.TAG_NAME, "body").text
+                
+                # Extract CRN - look for pattern "CRN 26343" or "CRN: 26343"
+                crn_match = re.search(r'CRN[:\s]+(\d+)', page_text, re.IGNORECASE)
                 if crn_match:
                     enrollment_data['crn'] = crn_match.group(1)
-            except:
-                pass
-            
-            # Extract enrollment numbers
-            try:
-                enrollment_text = self.driver.find_element(By.CSS_SELECTOR, ".course-enrollment").text
                 
-                # Parse "Maximum Enrollment: 40 / Seats Avail: 16"
-                max_match = re.search(r'Maximum Enrollment:\s*(\d+)', enrollment_text)
-                seats_match = re.search(r'Seats Avail:\s*(\d+)', enrollment_text)
-                
-                if max_match:
-                    enrollment_data['max_enrollment'] = int(max_match.group(1))
-                if seats_match:
-                    enrollment_data['seats_available'] = int(seats_match.group(1))
+                # Extract enrollment - look for "Maximum Enrollment: 40 / Seats Avail: 16"
+                enrollment_match = re.search(r'Maximum Enrollment[:\s]+(\d+)\s*/\s*Seats Avail[:\s]+(\d+)', page_text, re.IGNORECASE)
+                if enrollment_match:
+                    enrollment_data['max_enrollment'] = int(enrollment_match.group(1))
+                    enrollment_data['seats_available'] = int(enrollment_match.group(2))
+                else:
+                    # Try alternative pattern
+                    max_match = re.search(r'Maximum Enrollment[:\s]+(\d+)', page_text, re.IGNORECASE)
+                    seats_match = re.search(r'Seats Avail[:\s]+(\d+)', page_text, re.IGNORECASE)
                     
-            except NoSuchElementException:
-                # Enrollment info might not be available for all courses
-                pass
+                    if max_match:
+                        enrollment_data['max_enrollment'] = int(max_match.group(1))
+                    if seats_match:
+                        enrollment_data['seats_available'] = int(seats_match.group(1))
+                        
+            except Exception as e:
+                print(f"Could not extract from page text: {e}")
             
         except Exception as e:
             print(f"Error extracting enrollment data: {e}")
