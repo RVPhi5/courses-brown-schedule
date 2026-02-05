@@ -24,6 +24,8 @@ For each course, the scraper collects:
 - Seats available
 - Last updated timestamp
 
+**Note**: The scraper automatically **skips sections starting with "C"** (discussion/conference sections) and only collects data for primary course sections (typically starting with "S").
+
 ## Installation
 
 1. **Prerequisites**:

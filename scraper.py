@@ -139,15 +139,42 @@ class BrownCourseScraper:
                 # Extract basic info from list view
                 course_data = self.extract_list_data(course_element)
                 
+                # Skip sections that start with 'C' (discussion/conference sections)
+                if course_data and course_data.get('section', '').startswith('C'):
+                    print(f"Skipping section {course_data.get('section')} for {course_data.get('course_code')}")
+                    course_index += 1
+                    continue
+                
                 if course_data:
                     # Click into course for enrollment data
                     try:
                         course_element.click()
                         time.sleep(1)
                         
-                        # Extract enrollment data from detail page
-                        enrollment_data = self.extract_enrollment_data()
-                        course_data.update(enrollment_data)
+                        # Check if we need to extract data from the detail page
+                        # (for courses that don't show times/instructor in list view)
+                        if not course_data.get('course_times') or not course_data.get('instructor'):
+                            print(f"Extracting from All Sections table for {course_data.get('course_code')}")
+                            # Extract everything from the All Sections table
+                            section_data = self.extract_section_from_table(course_data.get('course_code', ''))
+                            
+                            # Update course_data with section table data
+                            if section_data.get('course_times'):
+                                course_data['course_times'] = section_data['course_times']
+                            if section_data.get('instructor'):
+                                course_data['instructor'] = section_data['instructor']
+                            if section_data.get('crn'):
+                                course_data['crn'] = section_data['crn']
+                            if section_data.get('section'):
+                                course_data['section'] = section_data['section']
+                            if section_data.get('max_enrollment') is not None:
+                                course_data['max_enrollment'] = section_data['max_enrollment']
+                            if section_data.get('seats_available') is not None:
+                                course_data['seats_available'] = section_data['seats_available']
+                        else:
+                            # Extract enrollment data normally
+                            enrollment_data = self.extract_enrollment_data()
+                            course_data.update(enrollment_data)
                         
                         # Go back to list
                         self.driver.back()
@@ -296,6 +323,122 @@ class BrownCourseScraper:
             print(f"Error extracting enrollment data: {e}")
         
         return enrollment_data
+    
+    def extract_section_from_table(self, course_code: str) -> dict:
+        """
+        Extract section data from the "All Sections" table on the detail page.
+        This is used for courses that don't show times/instructor in the list view.
+        
+        Args:
+            course_code: The course code to help with logging
+            
+        Returns:
+            Dictionary with section data (times, instructor, CRN, enrollment)
+        """
+        section_data = {
+            'course_times': '',
+            'instructor': '',
+            'crn': None,
+            'max_enrollment': None,
+            'seats_available': None,
+            'section': ''
+        }
+        
+        try:
+            time.sleep(1)
+            
+            # Look for the "All Sections" table
+            # Try to find rows in the table - S01 row should have the data
+            page_text = self.driver.find_element(By.TAG_NAME, "body").text
+            
+            # Look for S01 section data in the table
+            # Pattern: S01 followed by CRN, Meets time, and Instructor
+            # Example from table: "S01    26810    MWF 12-12:50p    K. Mallory"
+            
+            # Try to find the table and parse it
+            try:
+                # Find all table rows
+                rows = self.driver.find_elements(By.CSS_SELECTOR, "table tr, .section-row, [class*='section']")
+                
+                for row in rows:
+                    row_text = row.text.strip()
+                    
+                    # Look for S01 in the row
+                    if re.search(r'\bS01\b', row_text):
+                        # Try to extract data from the row
+                        # Pattern: S01 <CRN> <Meets> <Instructor>
+                        parts = row_text.split()
+                        
+                        if len(parts) >= 4:
+                            section_data['section'] = 'S01'
+                            
+                            # Try to find CRN (5-digit number)
+                            for i, part in enumerate(parts):
+                                if part.isdigit() and len(part) == 5:
+                                    section_data['crn'] = part
+                                    
+                                    # Times should be after CRN
+                                    if i + 1 < len(parts):
+                                        # Collect time parts (e.g., "MWF 12-12:50p")
+                                        time_parts = []
+                                        j = i + 1
+                                        while j < len(parts) and not parts[j][0].isupper() or re.match(r'^[MTWRF]+$', parts[j]):
+                                            time_parts.append(parts[j])
+                                            j += 1
+                                            if j < len(parts) and re.search(r'\d', parts[j]):
+                                                time_parts.append(parts[j])
+                                                j += 1
+                                                break
+                                        
+                                        if time_parts:
+                                            section_data['course_times'] = ' '.join(time_parts)
+                                        
+                                        # Instructor is the rest
+                                        if j < len(parts):
+                                            section_data['instructor'] = ' '.join(parts[j:])
+                                    break
+                        
+                        # If we found S01, we're done
+                        if section_data['section'] == 'S01':
+                            break
+                
+                # If table parsing didn't work, try regex on full page text
+                if not section_data['section']:
+                    # Look for pattern: S01 followed by 5-digit CRN, time, and instructor
+                    s01_match = re.search(r'S01\s+(\d{5})\s+([MTWRF\s\d:\-apm]+)\s+([A-Z][^\n]+)', page_text)
+                    if s01_match:
+                        section_data['section'] = 'S01'
+                        section_data['crn'] = s01_match.group(1)
+                        section_data['course_times'] = s01_match.group(2).strip()
+                        section_data['instructor'] = s01_match.group(3).strip()
+                
+            except Exception as e:
+                print(f"Error parsing table for {course_code}: {e}")
+            
+            # Also try to get enrollment data
+            # Look for "Current enrollment: 143" or "Maximum Enrollment: X / Seats Avail: Y"
+            enrollment_match = re.search(r'Current enrollment[:\s]+(\d+)', page_text, re.IGNORECASE)
+            if enrollment_match:
+                section_data['max_enrollment'] = int(enrollment_match.group(1))
+                # For current enrollment, seats available would be 0 or we need to find max
+                # Try to find max enrollment separately
+                max_match = re.search(r'Maximum Enrollment[:\s]+(\d+)', page_text, re.IGNORECASE)
+                if max_match:
+                    actual_max = int(max_match.group(1))
+                    current = int(enrollment_match.group(1))
+                    section_data['max_enrollment'] = actual_max
+                    section_data['seats_available'] = max(0, actual_max - current)
+            else:
+                # Try the standard pattern
+                enrollment_match = re.search(r'Maximum Enrollment[:\s]+(\d+)\s*/\s*Seats Avail[:\s]+(\d+)', page_text, re.IGNORECASE)
+                if enrollment_match:
+                    section_data['max_enrollment'] = int(enrollment_match.group(1))
+                    section_data['seats_available'] = int(enrollment_match.group(2))
+            
+        except Exception as e:
+            print(f"Error extracting section table data for {course_code}: {e}")
+        
+        return section_data
     
     def run(self, max_courses: int = None):
         """
