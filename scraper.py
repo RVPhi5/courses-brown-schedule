@@ -82,15 +82,11 @@ class BrownCourseScraper:
     def get_course_count(self):
         """Get the total number of courses found."""
         try:
-            count_element = self.driver.find_element(By.CSS_SELECTOR, ".result-count")
-            count_text = count_element.text
-            # Extract number from text like "Found 1645 courses"
-            match = re.search(r'(\d+)', count_text)
-            if match:
-                return int(match.group(1))
+            # Directly count the course elements
+            course_elements = self.driver.find_elements(By.CSS_SELECTOR, ".result.result--group-start")
+            return len(course_elements)
         except:
-            pass
-        return 0
+            return 0
     
     def extract_department(self, course_code: str) -> str:
         """
