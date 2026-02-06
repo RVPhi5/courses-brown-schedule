@@ -1,0 +1,14 @@
+2026-02-06 01:12:06,332 - INFO - ====== WebDriver manager ======
+2026-02-06 01:12:08,262 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-06 01:12:08,739 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-06 01:12:09,131 - INFO - Driver [C:\Users\Rohan Standard\.wdm\drivers\chromedriver\win64\144.0.7559.133\chromedriver.exe] found in cache
+2026-02-06 01:12:17,297 - INFO - Processing course index 0
+2026-02-06 01:12:18,252 - INFO - Extracted list data: AFRI 0370
+2026-02-06 01:12:18,426 - INFO - Processing course index 1
+2026-02-06 01:12:19,319 - INFO - Extracted list data: AFRI 0411
+2026-02-06 01:12:19,477 - INFO - Processing course index 2
+2026-02-06 01:12:20,723 - INFO - Extracted list data: AFRI 0510
+2026-02-06 01:12:20,900 - INFO - Processing course index 3
+2026-02-06 01:12:22,423 - INFO - Extracted list data: AFRI 0551
+2026-02-06 01:12:22,567 - INFO - Processing course index 4
+2026-02-06 01:12:23,491 - INFO - Extracted list data: AFRI 0610

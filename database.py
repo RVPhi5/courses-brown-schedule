@@ -98,7 +98,30 @@ class CourseDatabase:
         if row:
             return self._row_to_dict(row)
         return None
-    
+
+    def course_exists(self, course_code: str, section: str) -> bool:
+        """
+        Check if course with specific code and section exists.
+        
+        Args:
+            course_code: Course code
+            section: Section identifier
+            
+        Returns:
+            True if exists, False otherwise
+        """
+        try:
+            query = "SELECT 1 FROM courses WHERE course_code = ?"
+            params = [course_code]
+            
+            if section:
+                query += " AND section = ?"
+                params.append(section)
+                
+            self.cursor.execute(query, params)
+            return self.cursor.fetchone() is not None
+        except:
+            return False    
     def get_all_courses(self) -> List[Dict]:
         """
         Retrieve all courses from database.

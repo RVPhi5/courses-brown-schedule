@@ -13,7 +13,16 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 import re
+import logging
 from database import CourseDatabase
+
+# Configure logging
+logging.basicConfig(
+    filename='scraper.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    filemode='w'
+)
 
 
 class BrownCourseScraper:
@@ -40,6 +49,7 @@ class BrownCourseScraper:
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
         options.add_argument('--disable-blink-features=AutomationControlled')
+        options.add_argument("--window-size=1920,1080")  # Ensure wide screen for side-by-side panels
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option('useAutomationExtension', False)
         
@@ -128,15 +138,25 @@ class BrownCourseScraper:
                 
                 course_element = course_elements[course_index]
                 
+                logging.info(f"Processing course index {course_index}")
+                
                 # Scroll to element
-                self.driver.execute_script("arguments[0].scrollIntoView(true);", course_element)
-                time.sleep(0.3)
+                self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", course_element)
+                time.sleep(0.5)
                 
                 # Extract basic info from list view
                 course_data = self.extract_list_data(course_element)
+                logging.info(f"Extracted list data: {course_data.get('course_code', 'Unknown')}")
+                
+                # Check if course already exists (Resume capability)
+                if course_data and self.db.course_exists(course_data.get('course_code'), course_data.get('section')):
+                    print(f"Skipping {course_data.get('course_code')} (Already scraped)")
+                    course_index += 1
+                    continue
                 
                 # Skip sections that start with 'C' (discussion/conference sections)
                 if course_data and course_data.get('section', '').startswith('C'):
+                    logging.info(f"Skipping section {course_data.get('section')}")
                     print(f"Skipping section {course_data.get('section')} for {course_data.get('course_code')}")
                     course_index += 1
                     continue
@@ -144,8 +164,11 @@ class BrownCourseScraper:
                 if course_data:
                     # Click into course for enrollment data
                     try:
+                        logging.info("Clicking course element...")
                         course_element.click()
                         time.sleep(1)
+                        logging.info("Clicked.")
+
                         
                         # Check if we need to extract data from the detail page
                         # (for courses that don't show times/instructor in list view)
@@ -172,8 +195,6 @@ class BrownCourseScraper:
                             enrollment_data = self.extract_enrollment_data()
                             course_data.update(enrollment_data)
                         
-                        # Go back to list
-                        self.driver.back()
                         time.sleep(1)
                         
                         # Save to database
@@ -185,19 +206,18 @@ class BrownCourseScraper:
                         
                     except Exception as e:
                         print(f"Error processing course detail: {e}")
-                        # Try to go back if we're stuck
-                        try:
-                            self.driver.back()
-                            time.sleep(1)
-                        except:
-                            pass
+                        # No need to go back in split view
+                        pass
                 
+                # Move to next course
                 course_index += 1
                 
             except StaleElementReferenceException:
+                logging.warning(f"Stale element at index {course_index}, retrying...")
                 print(f"Stale element at index {course_index}, retrying...")
                 continue
             except Exception as e:
+                logging.error(f"Error at course index {course_index}: {e}", exc_info=True)
                 print(f"Error at course index {course_index}: {e}")
                 course_index += 1
                 continue
