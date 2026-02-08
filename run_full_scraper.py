@@ -19,16 +19,16 @@ def main():
     
     try:
         scraper.setup_driver()
-        print("✓ Driver setup complete")
+        print("[+] Driver setup complete")
         
         scraper.load_all_courses()
-        print("✓ Course list loaded")
+        print("[+] Course list loaded")
         
         scraper.scrape_course_list(max_courses=None)
-        print("✓ Scraping complete")
+        print("[+] Scraping complete")
         
     except Exception as e:
-        print(f"\n✗ Error: {e}")
+        print(f"\n[!] Error: {e}")
         traceback.print_exc()
     finally:
         scraper.cleanup()

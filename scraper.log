@@ -1,14 +1,1628 @@
-2026-02-06 01:12:06,332 - INFO - ====== WebDriver manager ======
-2026-02-06 01:12:08,262 - INFO - Get LATEST chromedriver version for google-chrome
-2026-02-06 01:12:08,739 - INFO - Get LATEST chromedriver version for google-chrome
-2026-02-06 01:12:09,131 - INFO - Driver [C:\Users\Rohan Standard\.wdm\drivers\chromedriver\win64\144.0.7559.133\chromedriver.exe] found in cache
-2026-02-06 01:12:17,297 - INFO - Processing course index 0
-2026-02-06 01:12:18,252 - INFO - Extracted list data: AFRI 0370
-2026-02-06 01:12:18,426 - INFO - Processing course index 1
-2026-02-06 01:12:19,319 - INFO - Extracted list data: AFRI 0411
-2026-02-06 01:12:19,477 - INFO - Processing course index 2
-2026-02-06 01:12:20,723 - INFO - Extracted list data: AFRI 0510
-2026-02-06 01:12:20,900 - INFO - Processing course index 3
-2026-02-06 01:12:22,423 - INFO - Extracted list data: AFRI 0551
-2026-02-06 01:12:22,567 - INFO - Processing course index 4
-2026-02-06 01:12:23,491 - INFO - Extracted list data: AFRI 0610
+2026-02-06 17:35:03,546 - INFO - ====== WebDriver manager ======
+2026-02-06 17:35:06,298 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-06 17:35:07,236 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-06 17:35:07,991 - INFO - Driver [C:\Users\Rohan Standard\.wdm\drivers\chromedriver\win64\144.0.7559.133\chromedriver.exe] found in cache
+2026-02-06 17:35:17,817 - INFO - Processing course index 0
+2026-02-06 17:35:18,980 - INFO - Extracted list data: AFRI 0370
+2026-02-06 17:35:19,132 - INFO - Processing course index 1
+2026-02-06 17:35:20,297 - INFO - Extracted list data: AFRI 0411
+2026-02-06 17:35:20,484 - INFO - Processing course index 2
+2026-02-06 17:35:21,648 - INFO - Extracted list data: AFRI 0510
+2026-02-06 17:35:21,830 - INFO - Processing course index 3
+2026-02-06 17:35:23,218 - INFO - Extracted list data: AFRI 0551
+2026-02-06 17:35:23,500 - INFO - Processing course index 4
+2026-02-06 17:35:25,259 - INFO - Extracted list data: AFRI 0610
+2026-02-06 17:35:25,542 - INFO - Processing course index 5
+2026-02-06 17:35:26,904 - INFO - Extracted list data: AFRI 0990
+2026-02-06 17:35:27,078 - INFO - Processing course index 6
+2026-02-06 17:35:28,226 - INFO - Extracted list data: AFRI 1050E
+2026-02-06 17:35:28,418 - INFO - Processing course index 7
+2026-02-06 17:35:29,474 - INFO - Extracted list data: AFRI 1090A
+2026-02-06 17:35:29,717 - INFO - Processing course index 8
+2026-02-06 17:35:30,928 - INFO - Extracted list data: AFRI 1212
+2026-02-06 17:35:31,102 - INFO - Processing course index 9
+2026-02-06 17:35:32,094 - INFO - Extracted list data: AFRI 1360
+2026-02-06 17:35:32,261 - INFO - Processing course index 10
+2026-02-06 17:35:33,464 - INFO - Extracted list data: AFRI 1441
+2026-02-06 17:35:33,756 - INFO - Processing course index 11
+2026-02-06 17:35:34,979 - INFO - Extracted list data: AFRI 1651
+2026-02-06 17:35:35,159 - INFO - Processing course index 12
+2026-02-06 17:35:36,150 - INFO - Extracted list data: AFRI 1970
+2026-02-06 17:35:36,343 - INFO - Processing course index 13
+2026-02-06 17:35:37,319 - INFO - Extracted list data: AFRI 2001
+2026-02-06 17:35:37,487 - INFO - Processing course index 14
+2026-02-06 17:35:38,999 - INFO - Extracted list data: AFRI 2015
+2026-02-06 17:35:39,152 - INFO - Processing course index 15
+2026-02-06 17:35:40,419 - INFO - Extracted list data: AFRI 2030
+2026-02-06 17:35:40,650 - INFO - Processing course index 16
+2026-02-06 17:35:41,957 - INFO - Extracted list data: AFRI 2105
+2026-02-06 17:35:42,126 - INFO - Processing course index 17
+2026-02-06 17:35:43,324 - INFO - Extracted list data: AFRI 2106
+2026-02-06 17:35:43,498 - INFO - Processing course index 18
+2026-02-06 17:35:44,845 - INFO - Extracted list data: AFRI 2970
+2026-02-06 17:35:45,021 - INFO - Processing course index 19
+2026-02-06 17:35:46,007 - INFO - Extracted list data: AFRI 2980
+2026-02-06 17:35:46,213 - INFO - Processing course index 20
+2026-02-06 17:35:48,013 - INFO - Extracted list data: AFRI 2990
+2026-02-06 17:35:48,215 - INFO - Processing course index 21
+2026-02-06 17:35:49,315 - INFO - Extracted list data: AFRI XLIST
+2026-02-06 17:35:49,505 - INFO - Processing course index 22
+2026-02-06 17:35:50,598 - INFO - Extracted list data: AMST 0150T
+2026-02-06 17:35:50,778 - INFO - Processing course index 23
+2026-02-06 17:35:52,038 - INFO - Extracted list data: AMST 0192T
+2026-02-06 17:35:52,263 - INFO - Processing course index 24
+2026-02-06 17:35:53,352 - INFO - Extracted list data: AMST 0192U
+2026-02-06 17:35:53,543 - INFO - Processing course index 25
+2026-02-06 17:35:54,621 - INFO - Extracted list data: AMST 0192V
+2026-02-06 17:35:54,816 - INFO - Processing course index 26
+2026-02-06 17:35:55,988 - INFO - Extracted list data: AMST 0601H
+2026-02-06 17:35:56,149 - INFO - Processing course index 27
+2026-02-06 17:35:57,239 - INFO - Extracted list data: AMST 1200P
+2026-02-06 17:35:57,432 - INFO - Processing course index 28
+2026-02-06 17:35:58,843 - INFO - Extracted list data: AMST 1631D
+2026-02-06 17:35:59,076 - INFO - Processing course index 29
+2026-02-06 17:36:00,096 - INFO - Extracted list data: AMST 1700S
+2026-02-06 17:36:00,295 - INFO - Processing course index 30
+2026-02-06 17:36:01,460 - INFO - Extracted list data: AMST 1800
+2026-02-06 17:36:01,607 - INFO - Processing course index 31
+2026-02-06 17:36:02,692 - INFO - Extracted list data: AMST 1900P
+2026-02-06 17:36:02,869 - INFO - Processing course index 32
+2026-02-06 17:36:03,878 - INFO - Extracted list data: AMST 1907J
+2026-02-06 17:36:04,072 - INFO - Processing course index 33
+2026-02-06 17:36:05,283 - INFO - Extracted list data: AMST 1907K
+2026-02-06 17:36:05,475 - INFO - Processing course index 34
+2026-02-06 17:36:06,534 - INFO - Extracted list data: AMST 1907L
+2026-02-06 17:36:06,724 - INFO - Processing course index 35
+2026-02-06 17:36:07,669 - INFO - Extracted list data: AMST 1920A
+2026-02-06 17:36:07,856 - INFO - Processing course index 36
+2026-02-06 17:36:09,193 - INFO - Extracted list data: AMST 1970
+2026-02-06 17:36:09,426 - INFO - Processing course index 37
+2026-02-06 17:36:10,904 - INFO - Extracted list data: AMST 2221J
+2026-02-06 17:36:11,083 - INFO - Processing course index 38
+2026-02-06 17:36:12,132 - INFO - Extracted list data: AMST 2660
+2026-02-06 17:36:12,344 - INFO - Processing course index 39
+2026-02-06 17:36:13,626 - INFO - Extracted list data: AMST 2920
+2026-02-06 17:36:13,856 - INFO - Processing course index 40
+2026-02-06 17:36:14,774 - INFO - Extracted list data: AMST 2921
+2026-02-06 17:36:14,985 - INFO - Processing course index 41
+2026-02-06 17:36:16,460 - INFO - Extracted list data: AMST 2922
+2026-02-06 17:36:16,656 - INFO - Processing course index 42
+2026-02-06 17:36:18,029 - INFO - Extracted list data: AMST 2923
+2026-02-06 17:36:18,241 - INFO - Processing course index 43
+2026-02-06 17:36:19,851 - INFO - Extracted list data: AMST 2950
+2026-02-06 17:36:20,066 - INFO - Processing course index 44
+2026-02-06 17:36:21,165 - INFO - Extracted list data: AMST 2990
+2026-02-06 17:36:21,353 - INFO - Processing course index 45
+2026-02-06 17:36:22,402 - INFO - Extracted list data: ANTH 0066L
+2026-02-06 17:36:22,575 - INFO - Processing course index 46
+2026-02-06 17:36:23,684 - INFO - Extracted list data: ANTH 0077A
+2026-02-06 17:36:23,840 - INFO - Processing course index 47
+2026-02-06 17:36:24,909 - INFO - Extracted list data: ANTH 0300
+2026-02-06 17:36:25,134 - INFO - Processing course index 48
+2026-02-06 17:36:25,987 - INFO - Extracted list data: ANTH 0500
+2026-02-06 17:36:26,146 - INFO - Processing course index 49
+2026-02-06 17:36:28,125 - INFO - Extracted list data: ANTH 0570
+2026-02-06 17:36:28,338 - INFO - Processing course index 50
+2026-02-06 17:36:30,110 - INFO - Extracted list data: ANTH 1010
+2026-02-06 17:36:30,284 - INFO - Processing course index 51
+2026-02-06 17:36:31,463 - INFO - Extracted list data: ANTH 1201
+2026-02-06 17:36:31,620 - INFO - Processing course index 52
+2026-02-06 17:36:33,600 - INFO - Extracted list data: ANTH 1205
+2026-02-06 17:36:33,851 - INFO - Processing course index 53
+2026-02-06 17:36:35,164 - INFO - Extracted list data: ANTH 1215
+2026-02-06 17:36:35,335 - INFO - Processing course index 54
+2026-02-06 17:36:37,151 - INFO - Extracted list data: ANTH 1225
+2026-02-06 17:36:37,370 - INFO - Processing course index 55
+2026-02-06 17:36:38,738 - INFO - Extracted list data: ANTH 1328
+2026-02-06 17:36:38,945 - INFO - Processing course index 56
+2026-02-06 17:36:40,286 - INFO - Extracted list data: ANTH 1360
+2026-02-06 17:36:40,486 - INFO - Processing course index 57
+2026-02-06 17:36:41,872 - INFO - Extracted list data: ANTH 1550A
+2026-02-06 17:36:42,063 - INFO - Processing course index 58
+2026-02-06 17:36:43,457 - INFO - Extracted list data: ANTH 1555
+2026-02-06 17:36:43,698 - INFO - Processing course index 59
+2026-02-06 17:36:44,891 - INFO - Extracted list data: ANTH 1560
+2026-02-06 17:36:45,069 - INFO - Processing course index 60
+2026-02-06 17:36:46,176 - INFO - Extracted list data: ANTH 1562
+2026-02-06 17:36:46,354 - INFO - Processing course index 61
+2026-02-06 17:36:47,327 - INFO - Extracted list data: ANTH 1665
+2026-02-06 17:36:47,525 - INFO - Processing course index 62
+2026-02-06 17:36:48,793 - INFO - Extracted list data: ANTH 1720
+2026-02-06 17:36:48,973 - INFO - Processing course index 63
+2026-02-06 17:36:50,178 - INFO - Extracted list data: ANTH 1721
+2026-02-06 17:36:50,360 - INFO - Processing course index 64
+2026-02-06 17:36:51,412 - INFO - Extracted list data: ANTH 1805
+2026-02-06 17:36:51,602 - INFO - Processing course index 65
+2026-02-06 17:36:52,667 - INFO - Extracted list data: ANTH 1876
+2026-02-06 17:36:52,808 - INFO - Processing course index 66
+2026-02-06 17:36:54,050 - INFO - Extracted list data: ANTH 1930
+2026-02-06 17:36:54,258 - INFO - Processing course index 67
+2026-02-06 17:36:55,722 - INFO - Extracted list data: ANTH 1940
+2026-02-06 17:36:55,919 - INFO - Processing course index 68
+2026-02-06 17:36:57,123 - INFO - Extracted list data: ANTH 1960
+2026-02-06 17:36:57,313 - INFO - Processing course index 69
+2026-02-06 17:36:58,205 - INFO - Extracted list data: ANTH 1970
+2026-02-06 17:36:58,384 - INFO - Processing course index 70
+2026-02-06 17:36:59,460 - INFO - Extracted list data: ANTH 1977D
+2026-02-06 17:36:59,669 - INFO - Processing course index 71
+2026-02-06 17:37:00,959 - INFO - Extracted list data: ANTH 1990
+2026-02-06 17:37:01,134 - INFO - Processing course index 72
+2026-02-06 17:37:02,413 - INFO - Extracted list data: ANTH 2020
+2026-02-06 17:37:02,590 - INFO - Processing course index 73
+2026-02-06 17:37:03,779 - INFO - Extracted list data: ANTH 2060
+2026-02-06 17:37:03,938 - INFO - Processing course index 74
+2026-02-06 17:37:05,131 - INFO - Extracted list data: ANTH 2140
+2026-02-06 17:37:05,330 - INFO - Processing course index 75
+2026-02-06 17:37:06,514 - INFO - Extracted list data: ANTH 2230
+2026-02-06 17:37:06,739 - INFO - Processing course index 76
+2026-02-06 17:37:07,932 - INFO - Extracted list data: ANTH 2520
+2026-02-06 17:37:08,089 - INFO - Processing course index 77
+2026-02-06 17:37:09,251 - INFO - Extracted list data: ANTH 2800
+2026-02-06 17:37:09,450 - INFO - Processing course index 78
+2026-02-06 17:37:10,705 - INFO - Extracted list data: ANTH 2970
+2026-02-06 17:37:10,953 - INFO - Processing course index 79
+2026-02-06 17:37:12,075 - INFO - Extracted list data: ANTH 2980
+2026-02-06 17:37:12,214 - INFO - Processing course index 80
+2026-02-06 17:37:13,370 - INFO - Extracted list data: ANTH 2990
+2026-02-06 17:37:13,559 - INFO - Processing course index 81
+2026-02-06 17:37:14,676 - INFO - Extracted list data: APMA 0200
+2026-02-06 17:37:14,871 - INFO - Processing course index 82
+2026-02-06 17:37:15,897 - INFO - Extracted list data: APMA 0260
+2026-02-06 17:37:16,085 - INFO - Processing course index 83
+2026-02-06 17:37:17,212 - INFO - Extracted list data: APMA 0350
+2026-02-06 17:37:17,352 - INFO - Processing course index 84
+2026-02-06 17:37:18,246 - INFO - Extracted list data: APMA 0355
+2026-02-06 17:37:18,419 - INFO - Processing course index 85
+2026-02-06 17:37:19,479 - INFO - Extracted list data: APMA 0360
+2026-02-06 17:37:19,652 - INFO - Processing course index 86
+2026-02-06 17:37:20,544 - INFO - Extracted list data: APMA 0365
+2026-02-06 17:37:20,696 - INFO - Processing course index 87
+2026-02-06 17:37:21,812 - INFO - Extracted list data: APMA 0650
+2026-02-06 17:37:22,013 - INFO - Processing course index 88
+2026-02-06 17:37:23,302 - INFO - Extracted list data: APMA 1070
+2026-02-06 17:37:23,503 - INFO - Processing course index 89
+2026-02-06 17:37:24,922 - INFO - Extracted list data: APMA 1160
+2026-02-06 17:37:25,141 - INFO - Processing course index 90
+2026-02-06 17:37:26,372 - INFO - Extracted list data: APMA 1200
+2026-02-06 17:37:26,539 - INFO - Processing course index 91
+2026-02-06 17:37:27,809 - INFO - Extracted list data: APMA 1360
+2026-02-06 17:37:28,022 - INFO - Processing course index 92
+2026-02-06 17:37:29,207 - INFO - Extracted list data: APMA 1650
+2026-02-06 17:37:29,380 - INFO - Processing course index 93
+2026-02-06 17:37:30,543 - INFO - Extracted list data: APMA 1655
+2026-02-06 17:37:30,692 - INFO - Processing course index 94
+2026-02-06 17:37:31,842 - INFO - Extracted list data: APMA 1660
+2026-02-06 17:37:32,001 - INFO - Processing course index 95
+2026-02-06 17:37:33,294 - INFO - Extracted list data: APMA 1740
+2026-02-06 17:37:33,453 - INFO - Processing course index 96
+2026-02-06 17:37:34,635 - INFO - Extracted list data: APMA 1941I
+2026-02-06 17:37:34,844 - INFO - Processing course index 97
+2026-02-06 17:37:36,382 - INFO - Extracted list data: APMA 1941J
+2026-02-06 17:37:36,552 - INFO - Processing course index 98
+2026-02-06 17:37:37,884 - INFO - Extracted list data: APMA 1970
+2026-02-06 17:37:38,094 - INFO - Processing course index 99
+2026-02-06 17:37:39,152 - INFO - Extracted list data: APMA 1971
+2026-02-06 17:37:39,395 - INFO - Processing course index 100
+2026-02-06 17:37:40,821 - INFO - Extracted list data: APMA 2070
+2026-02-06 17:37:40,994 - INFO - Processing course index 101
+2026-02-06 17:37:42,339 - INFO - Extracted list data: APMA 2200
+2026-02-06 17:37:42,592 - INFO - Processing course index 102
+2026-02-06 17:37:43,974 - INFO - Extracted list data: APMA 2240
+2026-02-06 17:37:44,134 - INFO - Processing course index 103
+2026-02-06 17:37:45,675 - INFO - Extracted list data: APMA 2560
+2026-02-06 17:37:45,866 - INFO - Processing course index 104
+2026-02-06 17:37:47,394 - INFO - Extracted list data: APMA 2610
+2026-02-06 17:37:47,573 - INFO - Processing course index 105
+2026-02-06 17:37:49,164 - INFO - Extracted list data: APMA 2640
+2026-02-06 17:37:49,402 - INFO - Processing course index 106
+2026-02-06 17:37:50,796 - INFO - Extracted list data: APMA 2680
+2026-02-06 17:37:50,975 - INFO - Processing course index 107
+2026-02-06 17:37:52,084 - INFO - Extracted list data: APMA 2812G
+2026-02-06 17:37:52,259 - INFO - Processing course index 108
+2026-02-06 17:37:53,450 - INFO - Extracted list data: APMA 2822G
+2026-02-06 17:37:53,615 - INFO - Processing course index 109
+2026-02-06 17:37:54,770 - INFO - Extracted list data: APMA 2980
+2026-02-06 17:37:54,947 - INFO - Processing course index 110
+2026-02-06 17:37:56,119 - INFO - Extracted list data: APMA 2990
+2026-02-06 17:37:56,294 - INFO - Processing course index 111
+2026-02-06 17:37:57,656 - INFO - Extracted list data: APMA XLIST
+2026-02-06 17:37:57,844 - INFO - Processing course index 112
+2026-02-06 17:37:58,822 - INFO - Extracted list data: ARAB 0200
+2026-02-06 17:37:58,977 - INFO - Processing course index 113
+2026-02-06 17:38:00,171 - INFO - Extracted list data: ARAB 0400
+2026-02-06 17:38:00,339 - INFO - Processing course index 114
+2026-02-06 17:38:01,377 - INFO - Extracted list data: ARAB 0800
+2026-02-06 17:38:01,578 - INFO - Processing course index 115
+2026-02-06 17:38:02,879 - INFO - Extracted list data: ARAB 1990
+2026-02-06 17:38:03,054 - INFO - Processing course index 116
+2026-02-06 17:38:04,161 - INFO - Extracted list data: ARCH 0033
+2026-02-06 17:38:04,354 - INFO - Processing course index 117
+2026-02-06 17:38:05,487 - INFO - Extracted list data: ARCH 0207
+2026-02-06 17:38:05,664 - INFO - Processing course index 118
+2026-02-06 17:38:06,916 - INFO - Extracted list data: ARCH 0313
+2026-02-06 17:38:07,077 - INFO - Processing course index 119
+2026-02-06 17:38:08,179 - INFO - Extracted list data: ARCH 0314
+2026-02-06 17:38:08,338 - INFO - Processing course index 120
+2026-02-06 17:38:09,471 - INFO - Extracted list data: ARCH 0520
+2026-02-06 17:38:09,681 - INFO - Processing course index 121
+2026-02-06 17:38:11,156 - INFO - Extracted list data: ARCH 0530
+2026-02-06 17:38:11,332 - INFO - Processing course index 122
+2026-02-06 17:38:12,831 - INFO - Extracted list data: ARCH 0730
+2026-02-06 17:38:13,076 - INFO - Processing course index 123
+2026-02-06 17:38:14,924 - INFO - Extracted list data: ARCH 1051A
+2026-02-06 17:38:15,157 - INFO - Processing course index 124
+2026-02-06 17:38:16,916 - INFO - Extracted list data: ARCH 1214
+2026-02-06 17:38:17,130 - INFO - Processing course index 125
+2026-02-06 17:38:18,964 - INFO - Extracted list data: ARCH 1278
+2026-02-06 17:38:19,165 - INFO - Processing course index 126
+2026-02-06 17:38:20,279 - INFO - Extracted list data: ARCH 1434
+2026-02-06 17:38:20,454 - INFO - Processing course index 127
+2026-02-06 17:38:21,753 - INFO - Extracted list data: ARCH 1517
+2026-02-06 17:38:21,942 - INFO - Processing course index 128
+2026-02-06 17:38:23,116 - INFO - Extracted list data: ARCH 1606
+2026-02-06 17:38:23,306 - INFO - Processing course index 129
+2026-02-06 17:38:24,550 - INFO - Extracted list data: ARCH 1612
+2026-02-06 17:38:24,820 - INFO - Processing course index 130
+2026-02-06 17:38:26,002 - INFO - Extracted list data: ARCH 1621
+2026-02-06 17:38:26,148 - INFO - Processing course index 131
+2026-02-06 17:38:27,272 - INFO - Extracted list data: ARCH 1765
+2026-02-06 17:38:27,427 - INFO - Processing course index 132
+2026-02-06 17:38:28,573 - INFO - Extracted list data: ARCH 1772
+2026-02-06 17:38:28,744 - INFO - Processing course index 133
+2026-02-06 17:38:30,060 - INFO - Extracted list data: ARCH 1772A
+2026-02-06 17:38:30,202 - INFO - Processing course index 134
+2026-02-06 17:38:31,427 - INFO - Extracted list data: ARCH 1863
+2026-02-06 17:38:31,619 - INFO - Processing course index 135
+2026-02-06 17:38:32,811 - INFO - Extracted list data: ARCH 1869
+2026-02-06 17:38:33,084 - INFO - Processing course index 136
+2026-02-06 17:38:34,245 - INFO - Extracted list data: ARCH 1881
+2026-02-06 17:38:34,422 - INFO - Processing course index 137
+2026-02-06 17:38:35,292 - INFO - Extracted list data: ARCH 1970
+2026-02-06 17:38:35,450 - INFO - Processing course index 138
+2026-02-06 17:38:36,434 - INFO - Extracted list data: ARCH 1990
+2026-02-06 17:38:36,588 - INFO - Processing course index 139
+2026-02-06 17:38:38,281 - INFO - Extracted list data: ARCH 2000
+2026-02-06 17:38:38,480 - INFO - Processing course index 140
+2026-02-06 17:38:39,736 - INFO - Extracted list data: ARCH 2041
+2026-02-06 17:38:39,910 - INFO - Processing course index 141
+2026-02-06 17:38:41,251 - INFO - Extracted list data: ARCH 2232
+2026-02-06 17:38:41,510 - INFO - Processing course index 142
+2026-02-06 17:38:42,823 - INFO - Extracted list data: ARCH 2237
+2026-02-06 17:38:43,029 - INFO - Processing course index 143
+2026-02-06 17:38:44,273 - INFO - Extracted list data: ARCH 2950
+2026-02-06 17:38:44,438 - INFO - Processing course index 144
+2026-02-06 17:38:45,477 - INFO - Extracted list data: ARCH 2970
+2026-02-06 17:38:45,665 - INFO - Processing course index 145
+2026-02-06 17:38:46,555 - INFO - Extracted list data: ARCH 2975
+2026-02-06 17:38:46,737 - INFO - Processing course index 146
+2026-02-06 17:38:47,859 - INFO - Extracted list data: ARCH 2976
+2026-02-06 17:38:48,065 - INFO - Processing course index 147
+2026-02-06 17:38:49,193 - INFO - Extracted list data: ARCH 2980
+2026-02-06 17:38:49,352 - INFO - Processing course index 148
+2026-02-06 17:38:50,449 - INFO - Extracted list data: ARCH 2982
+2026-02-06 17:38:50,660 - INFO - Processing course index 149
+2026-02-06 17:38:51,730 - INFO - Extracted list data: ARCH 2983
+2026-02-06 17:38:51,924 - INFO - Processing course index 150
+2026-02-06 17:38:53,016 - INFO - Extracted list data: ARTS 1011
+2026-02-06 17:38:53,228 - INFO - Processing course index 151
+2026-02-06 17:38:54,568 - INFO - Extracted list data: ARTS 1017
+2026-02-06 17:38:54,765 - INFO - Processing course index 152
+2026-02-06 17:38:55,955 - INFO - Extracted list data: ARTS 1018
+2026-02-06 17:38:56,162 - INFO - Processing course index 153
+2026-02-06 17:38:57,069 - INFO - Extracted list data: ARTS 1970
+2026-02-06 17:38:57,259 - INFO - Processing course index 154
+2026-02-06 17:38:58,603 - INFO - Extracted list data: ASYR 1100
+2026-02-06 17:38:58,777 - INFO - Processing course index 155
+2026-02-06 17:39:00,228 - INFO - Extracted list data: ASYR 1725
+2026-02-06 17:39:00,480 - INFO - Processing course index 156
+2026-02-06 17:39:01,715 - INFO - Extracted list data: ASYR 1990
+2026-02-06 17:39:01,946 - INFO - Processing course index 157
+2026-02-06 17:39:03,314 - INFO - Extracted list data: ASYR 2500
+2026-02-06 17:39:03,533 - INFO - Processing course index 158
+2026-02-06 17:39:04,861 - INFO - Extracted list data: ASYR 2710
+2026-02-06 17:39:05,038 - INFO - Processing course index 159
+2026-02-06 17:39:06,278 - INFO - Extracted list data: ASYR 2970
+2026-02-06 17:39:06,495 - INFO - Processing course index 160
+2026-02-06 17:39:07,546 - INFO - Extracted list data: ASYR 2980
+2026-02-06 17:39:07,727 - INFO - Processing course index 161
+2026-02-06 17:39:08,848 - INFO - Extracted list data: ASYR 2990
+2026-02-06 17:39:09,051 - INFO - Processing course index 162
+2026-02-06 17:39:10,249 - INFO - Extracted list data: BHBR 0200
+2026-02-06 17:39:10,423 - INFO - Processing course index 163
+2026-02-06 17:39:11,653 - INFO - Extracted list data: BHDS 2000
+2026-02-06 17:39:11,830 - INFO - Processing course index 164
+2026-02-06 17:39:13,071 - INFO - Extracted list data: BHDS 2010
+2026-02-06 17:39:13,242 - INFO - Processing course index 165
+2026-02-06 17:39:14,504 - INFO - Extracted list data: BHDS 2020
+2026-02-06 17:39:14,684 - INFO - Processing course index 166
+2026-02-06 17:39:15,908 - INFO - Extracted list data: BHDS 2040
+2026-02-06 17:39:16,074 - INFO - Processing course index 167
+2026-02-06 17:39:17,195 - INFO - Extracted list data: BHDS 2110
+2026-02-06 17:39:17,347 - INFO - Processing course index 168
+2026-02-06 17:39:18,594 - INFO - Extracted list data: BHDS 2130
+2026-02-06 17:39:18,775 - INFO - Processing course index 169
+2026-02-06 17:39:20,093 - INFO - Extracted list data: BIOL 0080
+2026-02-06 17:39:20,289 - INFO - Processing course index 170
+2026-02-06 17:39:21,630 - INFO - Extracted list data: BIOL 0100
+2026-02-06 17:39:21,791 - INFO - Processing course index 171
+2026-02-06 17:39:23,150 - INFO - Extracted list data: BIOL 0280
+2026-02-06 17:39:23,319 - INFO - Processing course index 172
+2026-02-06 17:39:24,651 - INFO - Extracted list data: BIOL 0285
+2026-02-06 17:39:24,847 - INFO - Processing course index 173
+2026-02-06 17:39:26,425 - INFO - Extracted list data: BIOL 0420
+2026-02-06 17:39:26,634 - INFO - Processing course index 174
+2026-02-06 17:39:27,955 - INFO - Extracted list data: BIOL 0500
+2026-02-06 17:39:28,144 - INFO - Processing course index 175
+2026-02-06 17:39:29,336 - INFO - Extracted list data: BIOL 0510
+2026-02-06 17:39:29,553 - INFO - Processing course index 176
+2026-02-06 17:39:30,954 - INFO - Extracted list data: BIOL 0610
+2026-02-06 17:39:31,114 - INFO - Processing course index 177
+2026-02-06 17:39:32,473 - INFO - Extracted list data: BIOL 0620
+2026-02-06 17:39:32,667 - INFO - Processing course index 178
+2026-02-06 17:39:34,245 - INFO - Extracted list data: BIOL 0800
+2026-02-06 17:39:34,454 - INFO - Processing course index 179
+2026-02-06 17:39:35,596 - INFO - Extracted list data: BIOL 1040
+2026-02-06 17:39:35,812 - INFO - Processing course index 180
+2026-02-06 17:39:36,742 - INFO - Extracted list data: BIOL 1150
+2026-02-06 17:39:36,895 - INFO - Processing course index 181
+2026-02-06 17:39:38,016 - INFO - Extracted list data: BIOL 1155
+2026-02-06 17:39:38,173 - INFO - Processing course index 182
+2026-02-06 17:39:39,409 - INFO - Extracted list data: BIOL 1250
+2026-02-06 17:39:39,559 - INFO - Processing course index 183
+2026-02-06 17:39:40,485 - INFO - Extracted list data: BIOL 1295
+2026-02-06 17:39:40,637 - INFO - Processing course index 184
+2026-02-06 17:39:41,598 - INFO - Extracted list data: BIOL 1330
+2026-02-06 17:39:41,805 - INFO - Processing course index 185
+2026-02-06 17:39:43,114 - INFO - Extracted list data: BIOL 1435
+2026-02-06 17:39:43,269 - INFO - Processing course index 186
+2026-02-06 17:39:44,383 - INFO - Extracted list data: BIOL 1525
+2026-02-06 17:39:44,521 - INFO - Processing course index 187
+2026-02-06 17:39:45,697 - INFO - Extracted list data: BIOL 1530
+2026-02-06 17:39:45,867 - INFO - Processing course index 188
+2026-02-06 17:39:47,099 - INFO - Extracted list data: BIOL 1540
+2026-02-06 17:39:47,280 - INFO - Processing course index 189
+2026-02-06 17:39:48,386 - INFO - Extracted list data: BIOL 1550
+2026-02-06 17:39:48,533 - INFO - Processing course index 190
+2026-02-06 17:39:49,670 - INFO - Extracted list data: BIOL 1555
+2026-02-06 17:39:49,845 - INFO - Processing course index 191
+2026-02-06 17:39:51,023 - INFO - Extracted list data: BIOL 1580
+2026-02-06 17:39:51,168 - INFO - Processing course index 192
+2026-02-06 17:39:52,457 - INFO - Extracted list data: BIOL 1595
+2026-02-06 17:39:52,594 - INFO - Processing course index 193
+2026-02-06 17:39:53,934 - INFO - Extracted list data: BIOL 1600
+2026-02-06 17:39:54,151 - INFO - Processing course index 194
+2026-02-06 17:39:55,493 - INFO - Extracted list data: BIOL 1610
+2026-02-06 17:39:55,661 - INFO - Processing course index 195
+2026-02-06 17:39:57,092 - INFO - Extracted list data: BIOL 1810
+2026-02-06 17:39:57,266 - INFO - Processing course index 196
+2026-02-06 17:39:58,598 - INFO - Extracted list data: BIOL 1840
+2026-02-06 17:39:58,780 - INFO - Processing course index 197
+2026-02-06 17:39:59,905 - INFO - Extracted list data: BIOL 1865
+2026-02-06 17:40:00,072 - INFO - Processing course index 198
+2026-02-06 17:40:01,081 - INFO - Extracted list data: BIOL 1960
+2026-02-06 17:40:01,257 - INFO - Processing course index 199
+2026-02-06 17:40:02,551 - INFO - Extracted list data: BIOL 2000C
+2026-02-06 17:40:02,722 - INFO - Processing course index 200
+2026-02-06 17:40:04,206 - INFO - Extracted list data: BIOL 2010B
+2026-02-06 17:40:04,389 - INFO - Processing course index 201
+2026-02-06 17:40:05,623 - INFO - Extracted list data: BIOL 2018
+2026-02-06 17:40:05,795 - INFO - Processing course index 202
+2026-02-06 17:40:07,006 - INFO - Extracted list data: BIOL 2025
+2026-02-06 17:40:07,164 - INFO - Processing course index 203
+2026-02-06 17:40:08,439 - INFO - Extracted list data: BIOL 2040
+2026-02-06 17:40:08,621 - INFO - Processing course index 204
+2026-02-06 17:40:09,826 - INFO - Extracted list data: BIOL 2078
+2026-02-06 17:40:09,995 - INFO - Processing course index 205
+2026-02-06 17:40:11,243 - INFO - Extracted list data: BIOL 2115
+2026-02-06 17:40:11,421 - INFO - Processing course index 206
+2026-02-06 17:40:12,793 - INFO - Extracted list data: BIOL 2135
+2026-02-06 17:40:12,940 - INFO - Processing course index 207
+2026-02-06 17:40:14,144 - INFO - Extracted list data: BIOL 2145
+2026-02-06 17:40:14,324 - INFO - Processing course index 208
+2026-02-06 17:40:15,665 - INFO - Extracted list data: BIOL 2167
+2026-02-06 17:40:15,822 - INFO - Processing course index 209
+2026-02-06 17:40:17,222 - INFO - Extracted list data: BIOL 2170
+2026-02-06 17:40:17,413 - INFO - Processing course index 210
+2026-02-06 17:40:18,920 - INFO - Extracted list data: BIOL 2180
+2026-02-06 17:40:19,101 - INFO - Processing course index 211
+2026-02-06 17:40:20,704 - INFO - Extracted list data: BIOL 2200B
+2026-02-06 17:40:20,865 - INFO - Processing course index 212
+2026-02-06 17:40:22,377 - INFO - Extracted list data: BIOL 2240
+2026-02-06 17:40:22,564 - INFO - Processing course index 213
+2026-02-06 17:40:24,828 - INFO - Extracted list data: BIOL 2350
+2026-02-06 17:40:25,444 - INFO - Processing course index 214
+2026-02-06 17:40:27,785 - INFO - Extracted list data: BIOL 2400
+2026-02-06 17:40:28,044 - INFO - Processing course index 215
+2026-02-06 17:40:29,884 - INFO - Extracted list data: BIOL 2440
+2026-02-06 17:40:30,098 - INFO - Processing course index 216
+2026-02-06 17:40:31,332 - INFO - Extracted list data: BIOL 2525
+2026-02-06 17:40:31,510 - INFO - Processing course index 217
+2026-02-06 17:40:32,801 - INFO - Extracted list data: BIOL 2528
+2026-02-06 17:40:32,974 - INFO - Processing course index 218
+2026-02-06 17:40:34,359 - INFO - Extracted list data: BIOL 2540
+2026-02-06 17:40:34,562 - INFO - Processing course index 219
+2026-02-06 17:40:36,172 - INFO - Extracted list data: BIOL 2555
+2026-02-06 17:40:36,347 - INFO - Processing course index 220
+2026-02-06 17:40:37,974 - INFO - Extracted list data: BIOL 2595
+2026-02-06 17:40:38,163 - INFO - Processing course index 221
+2026-02-06 17:40:39,676 - INFO - Extracted list data: BIOL 2660
+2026-02-06 17:40:39,872 - INFO - Processing course index 222
+2026-02-06 17:40:41,112 - INFO - Extracted list data: BIOL 2865
+2026-02-06 17:40:41,285 - INFO - Processing course index 223
+2026-02-06 17:40:42,611 - INFO - Extracted list data: BIOL 2970
+2026-02-06 17:40:42,789 - INFO - Processing course index 224
+2026-02-06 17:40:44,081 - INFO - Extracted list data: BIOL 2980
+2026-02-06 17:40:44,258 - INFO - Processing course index 225
+2026-02-06 17:40:45,582 - INFO - Extracted list data: BIOL 2990
+2026-02-06 17:40:45,781 - INFO - Processing course index 226
+2026-02-06 17:40:47,137 - INFO - Extracted list data: BIOL XLIST
+2026-02-06 17:40:47,303 - INFO - Processing course index 227
+2026-02-06 17:40:48,655 - INFO - Extracted list data: CATL 1910
+2026-02-06 17:40:48,842 - INFO - Processing course index 228
+2026-02-06 17:40:49,853 - INFO - Extracted list data: CHEM 0330
+2026-02-06 17:40:50,032 - INFO - Processing course index 229
+2026-02-06 17:40:51,056 - INFO - Extracted list data: CHEM 0330L
+2026-02-06 17:40:51,246 - INFO - Processing course index 230
+2026-02-06 17:40:52,254 - INFO - Extracted list data: CHEM 0350
+2026-02-06 17:40:52,482 - INFO - Processing course index 231
+2026-02-06 17:40:53,888 - INFO - Extracted list data: CHEM 0400
+2026-02-06 17:40:54,086 - INFO - Processing course index 232
+2026-02-06 17:40:55,359 - INFO - Extracted list data: CHEM 0500
+2026-02-06 17:40:55,554 - INFO - Processing course index 233
+2026-02-06 17:40:56,509 - INFO - Extracted list data: CHEM 0600
+2026-02-06 17:40:56,740 - INFO - Processing course index 234
+2026-02-06 17:40:57,799 - INFO - Extracted list data: CHEM 0980
+2026-02-06 17:40:57,957 - INFO - Processing course index 235
+2026-02-06 17:40:58,981 - INFO - Extracted list data: CHEM 0980S
+2026-02-06 17:40:59,136 - INFO - Processing course index 236
+2026-02-06 17:41:00,478 - INFO - Extracted list data: CHEM 0981
+2026-02-06 17:41:00,658 - INFO - Processing course index 237
+2026-02-06 17:41:02,000 - INFO - Extracted list data: CHEM 0986
+2026-02-06 17:41:02,174 - INFO - Processing course index 238
+2026-02-06 17:41:03,503 - INFO - Extracted list data: CHEM 1150
+2026-02-06 17:41:03,737 - INFO - Processing course index 239
+2026-02-06 17:41:04,938 - INFO - Extracted list data: CHEM 1160
+2026-02-06 17:41:05,129 - INFO - Processing course index 240
+2026-02-06 17:41:06,638 - INFO - Extracted list data: CHEM 1230
+2026-02-06 17:41:06,840 - INFO - Processing course index 241
+2026-02-06 17:41:08,222 - INFO - Extracted list data: CHEM 1450
+2026-02-06 17:41:08,400 - INFO - Processing course index 242
+2026-02-06 17:41:09,690 - INFO - Extracted list data: CHEM 1560K
+2026-02-06 17:41:09,878 - INFO - Processing course index 243
+2026-02-06 17:41:11,221 - INFO - Extracted list data: CHEM 1560P
+2026-02-06 17:41:11,362 - INFO - Processing course index 244
+2026-02-06 17:41:12,410 - INFO - Extracted list data: CHEM 2020
+2026-02-06 17:41:12,585 - INFO - Processing course index 245
+2026-02-06 17:41:13,652 - INFO - Extracted list data: CHEM 2420
+2026-02-06 17:41:13,813 - INFO - Processing course index 246
+2026-02-06 17:41:15,188 - INFO - Extracted list data: CHEM 2430
+2026-02-06 17:41:15,362 - INFO - Processing course index 247
+2026-02-06 17:41:16,592 - INFO - Extracted list data: CHEM 2780
+2026-02-06 17:41:16,768 - INFO - Processing course index 248
+2026-02-06 17:41:17,900 - INFO - Extracted list data: CHEM 2870
+2026-02-06 17:41:18,089 - INFO - Processing course index 249
+2026-02-06 17:41:19,360 - INFO - Extracted list data: CHEM 2970
+2026-02-06 17:41:19,519 - INFO - Processing course index 250
+2026-02-06 17:41:20,475 - INFO - Extracted list data: CHEM 2980
+2026-02-06 17:41:20,610 - INFO - Processing course index 251
+2026-02-06 17:41:21,678 - INFO - Extracted list data: CHEM 2981
+2026-02-06 17:41:21,842 - INFO - Processing course index 252
+2026-02-06 17:41:23,130 - INFO - Extracted list data: CHEM 2990
+2026-02-06 17:41:23,271 - INFO - Processing course index 253
+2026-02-06 17:41:24,467 - INFO - Extracted list data: CHIN 0200
+2026-02-06 17:41:24,632 - INFO - Processing course index 254
+2026-02-06 17:41:25,666 - INFO - Extracted list data: CHIN 0400
+2026-02-06 17:41:25,839 - INFO - Processing course index 255
+2026-02-06 17:41:26,817 - INFO - Extracted list data: CHIN 0450
+2026-02-06 17:41:26,955 - INFO - Processing course index 256
+2026-02-06 17:41:28,269 - INFO - Extracted list data: CHIN 0600
+2026-02-06 17:41:28,435 - INFO - Processing course index 257
+2026-02-06 17:41:29,407 - INFO - Extracted list data: CHIN 0800
+2026-02-06 17:41:29,549 - INFO - Processing course index 258
+2026-02-06 17:41:30,790 - INFO - Extracted list data: CHIN 0914
+2026-02-06 17:41:30,966 - INFO - Processing course index 259
+2026-02-06 17:41:32,277 - INFO - Extracted list data: CHIN 1010
+2026-02-06 17:41:32,439 - INFO - Processing course index 260
+2026-02-06 17:41:33,628 - INFO - Extracted list data: CHIN 1040
+2026-02-06 17:41:33,787 - INFO - Processing course index 261
+2026-02-06 17:41:35,101 - INFO - Extracted list data: CLAS 0010
+2026-02-06 17:41:35,240 - INFO - Processing course index 262
+2026-02-06 17:41:36,563 - INFO - Extracted list data: CLAS 1120S
+2026-02-06 17:41:36,730 - INFO - Processing course index 263
+2026-02-06 17:41:38,183 - INFO - Extracted list data: CLAS 1140
+2026-02-06 17:41:38,372 - INFO - Processing course index 264
+2026-02-06 17:41:39,902 - INFO - Extracted list data: CLAS 1220
+2026-02-06 17:41:40,073 - INFO - Processing course index 265
+2026-02-06 17:41:41,518 - INFO - Extracted list data: CLAS 1230
+2026-02-06 17:41:41,657 - INFO - Processing course index 266
+2026-02-06 17:41:42,884 - INFO - Extracted list data: CLAS 1750H
+2026-02-06 17:41:43,032 - INFO - Processing course index 267
+2026-02-06 17:41:44,357 - INFO - Extracted list data: CLAS 1930F
+2026-02-06 17:41:44,528 - INFO - Processing course index 268
+2026-02-06 17:41:45,642 - INFO - Extracted list data: CLAS 1970
+2026-02-06 17:41:45,802 - INFO - Processing course index 269
+2026-02-06 17:41:46,942 - INFO - Extracted list data: CLAS 1990
+2026-02-06 17:41:47,086 - INFO - Processing course index 270
+2026-02-06 17:41:48,764 - INFO - Extracted list data: CLAS 2080H
+2026-02-06 17:41:48,928 - INFO - Processing course index 271
+2026-02-06 17:41:50,553 - INFO - Extracted list data: CLAS 2200
+2026-02-06 17:41:50,771 - INFO - Processing course index 272
+2026-02-06 17:41:52,083 - INFO - Extracted list data: CLAS 2970
+2026-02-06 17:41:52,266 - INFO - Processing course index 273
+2026-02-06 17:41:53,300 - INFO - Extracted list data: CLAS 2980
+2026-02-06 17:41:53,473 - INFO - Processing course index 274
+2026-02-06 17:41:55,105 - INFO - Extracted list data: CLAS 2990
+2026-02-06 17:41:55,280 - INFO - Processing course index 275
+2026-02-06 17:41:56,589 - INFO - Extracted list data: COLT 0710N
+2026-02-06 17:41:56,779 - INFO - Processing course index 276
+2026-02-06 17:41:58,044 - INFO - Extracted list data: COLT 0710Z
+2026-02-06 17:41:58,219 - INFO - Processing course index 277
+2026-02-06 17:41:59,796 - INFO - Extracted list data: COLT 0711L
+2026-02-06 17:41:59,999 - INFO - Processing course index 278
+2026-02-06 17:42:01,560 - INFO - Extracted list data: COLT 0711V
+2026-02-06 17:42:01,763 - INFO - Processing course index 279
+2026-02-06 17:42:03,843 - INFO - Extracted list data: COLT 0810I
+2026-02-06 17:42:04,039 - INFO - Processing course index 280
+2026-02-06 17:42:05,399 - INFO - Extracted list data: COLT 0811Z
+2026-02-06 17:42:05,605 - INFO - Processing course index 281
+2026-02-06 17:42:07,131 - INFO - Extracted list data: COLT 0812Z
+2026-02-06 17:42:07,316 - INFO - Processing course index 282
+2026-02-06 17:42:08,836 - INFO - Extracted list data: COLT 0813A
+2026-02-06 17:42:09,011 - INFO - Processing course index 283
+2026-02-06 17:42:10,603 - INFO - Extracted list data: COLT 1210
+2026-02-06 17:42:10,787 - INFO - Processing course index 284
+2026-02-06 17:42:12,524 - INFO - Extracted list data: COLT 1310Y
+2026-02-06 17:42:12,694 - INFO - Processing course index 285
+2026-02-06 17:42:14,474 - INFO - Extracted list data: COLT 1410S
+2026-02-06 17:42:14,685 - INFO - Processing course index 286
+2026-02-06 17:42:16,026 - INFO - Extracted list data: COLT 1411F
+2026-02-06 17:42:16,256 - INFO - Processing course index 287
+2026-02-06 17:42:17,648 - INFO - Extracted list data: COLT 1430L
+2026-02-06 17:42:17,837 - INFO - Processing course index 288
+2026-02-06 17:42:19,195 - INFO - Extracted list data: COLT 1440P
+2026-02-06 17:42:19,392 - INFO - Processing course index 289
+2026-02-06 17:42:20,784 - INFO - Extracted list data: COLT 1441B
+2026-02-06 17:42:20,978 - INFO - Processing course index 290
+2026-02-06 17:42:22,282 - INFO - Extracted list data: COLT 1816
+2026-02-06 17:42:22,471 - INFO - Processing course index 291
+2026-02-06 17:42:23,653 - INFO - Extracted list data: COLT 1970
+2026-02-06 17:42:23,830 - INFO - Processing course index 292
+2026-02-06 17:42:25,055 - INFO - Extracted list data: COLT 1990
+2026-02-06 17:42:25,199 - INFO - Processing course index 293
+2026-02-06 17:42:26,756 - INFO - Extracted list data: COLT 2520F
+2026-02-06 17:42:26,915 - INFO - Processing course index 294
+2026-02-06 17:42:28,324 - INFO - Extracted list data: COLT 2720C
+2026-02-06 17:42:28,503 - INFO - Processing course index 295
+2026-02-06 17:42:30,226 - INFO - Extracted list data: COLT 2822V
+2026-02-06 17:42:30,363 - INFO - Processing course index 296
+2026-02-06 17:42:31,933 - INFO - Extracted list data: COLT 2830T
+2026-02-06 17:42:32,109 - INFO - Processing course index 297
+2026-02-06 17:42:33,105 - INFO - Extracted list data: COLT 2980
+2026-02-06 17:42:33,310 - INFO - Processing course index 298
+2026-02-06 17:42:34,892 - INFO - Extracted list data: COLT 2990
+2026-02-06 17:42:35,132 - INFO - Processing course index 299
+2026-02-06 17:42:36,309 - INFO - Extracted list data: COST 0100
+2026-02-06 17:42:36,508 - INFO - Processing course index 300
+2026-02-06 17:42:38,109 - INFO - Extracted list data: COST 0725
+2026-02-06 17:42:38,302 - INFO - Processing course index 301
+2026-02-06 17:42:39,614 - INFO - Extracted list data: COST 1095
+2026-02-06 17:42:39,814 - INFO - Processing course index 302
+2026-02-06 17:42:40,961 - INFO - Extracted list data: COST 1705B
+2026-02-06 17:42:41,138 - INFO - Processing course index 303
+2026-02-06 17:42:42,197 - INFO - Extracted list data: COST 1920
+2026-02-06 17:42:42,375 - INFO - Processing course index 304
+2026-02-06 17:42:43,801 - INFO - Extracted list data: COST 1950
+2026-02-06 17:42:43,985 - INFO - Processing course index 305
+2026-02-06 17:42:45,051 - INFO - Extracted list data: COST 1980
+2026-02-06 17:42:45,275 - INFO - Processing course index 306
+2026-02-06 17:42:46,520 - INFO - Extracted list data: CPSY 0100
+2026-02-06 17:42:46,699 - INFO - Processing course index 307
+2026-02-06 17:42:48,089 - INFO - Extracted list data: CPSY 0220
+2026-02-06 17:42:48,258 - INFO - Processing course index 308
+2026-02-06 17:42:49,487 - INFO - Extracted list data: CPSY 0400
+2026-02-06 17:42:49,653 - INFO - Processing course index 309
+2026-02-06 17:42:51,123 - INFO - Extracted list data: CPSY 0610
+2026-02-06 17:42:51,283 - INFO - Processing course index 310
+2026-02-06 17:42:52,614 - INFO - Extracted list data: CPSY 0900
+2026-02-06 17:42:52,848 - INFO - Processing course index 311
+2026-02-06 17:42:54,261 - INFO - Extracted list data: CPSY 0950
+2026-02-06 17:42:54,448 - INFO - Processing course index 312
+2026-02-06 17:42:55,930 - INFO - Extracted list data: CPSY 1280B
+2026-02-06 17:42:56,131 - INFO - Processing course index 313
+2026-02-06 17:42:57,546 - INFO - Extracted list data: CPSY 1492
+2026-02-06 17:42:57,695 - INFO - Processing course index 314
+2026-02-06 17:42:59,151 - INFO - Extracted list data: CPSY 1560
+2026-02-06 17:42:59,339 - INFO - Processing course index 315
+2026-02-06 17:43:00,653 - INFO - Extracted list data: CPSY 1570
+2026-02-06 17:43:00,831 - INFO - Processing course index 316
+2026-02-06 17:43:02,507 - INFO - Extracted list data: CPSY 1591
+2026-02-06 17:43:02,710 - INFO - Processing course index 317
+2026-02-06 17:43:04,357 - INFO - Extracted list data: CPSY 1680H
+2026-02-06 17:43:04,560 - INFO - Processing course index 318
+2026-02-06 17:43:06,027 - INFO - Extracted list data: CPSY 1730
+2026-02-06 17:43:06,181 - INFO - Processing course index 319
+2026-02-06 17:43:07,574 - INFO - Extracted list data: CPSY 1770
+2026-02-06 17:43:07,742 - INFO - Processing course index 320
+2026-02-06 17:43:09,056 - INFO - Extracted list data: CPSY 1860
+2026-02-06 17:43:09,208 - INFO - Processing course index 321
+2026-02-06 17:43:10,711 - INFO - Extracted list data: CPSY 1900
+2026-02-06 17:43:10,894 - INFO - Processing course index 322
+2026-02-06 17:43:12,345 - INFO - Extracted list data: CPSY 1950
+2026-02-06 17:43:12,542 - INFO - Processing course index 323
+2026-02-06 17:43:13,550 - INFO - Extracted list data: CPSY 1970
+2026-02-06 17:43:13,753 - INFO - Processing course index 324
+2026-02-06 17:43:14,866 - INFO - Extracted list data: CPSY 1980
+2026-02-06 17:43:15,064 - INFO - Processing course index 325
+2026-02-06 17:43:16,201 - INFO - Extracted list data: CPSY 2092
+2026-02-06 17:43:16,392 - INFO - Processing course index 326
+2026-02-06 17:43:17,505 - INFO - Extracted list data: CPSY 2095
+2026-02-06 17:43:17,708 - INFO - Processing course index 327
+2026-02-06 17:43:18,752 - INFO - Extracted list data: CPSY 2096
+2026-02-06 17:43:18,948 - INFO - Processing course index 328
+2026-02-06 17:43:20,272 - INFO - Extracted list data: CPSY 2103
+2026-02-06 17:43:20,431 - INFO - Processing course index 329
+2026-02-06 17:43:21,791 - INFO - Extracted list data: CPSY 2104
+2026-02-06 17:43:21,952 - INFO - Processing course index 330
+2026-02-06 17:43:23,278 - INFO - Extracted list data: CPSY 2105
+2026-02-06 17:43:23,448 - INFO - Processing course index 331
+2026-02-06 17:43:24,980 - INFO - Extracted list data: CPSY 2970
+2026-02-06 17:43:25,189 - INFO - Processing course index 332
+2026-02-06 17:43:26,613 - INFO - Extracted list data: CPSY 2980
+2026-02-06 17:43:26,788 - INFO - Processing course index 333
+2026-02-06 17:43:28,117 - INFO - Extracted list data: CPSY 2982
+2026-02-06 17:43:28,308 - INFO - Processing course index 334
+2026-02-06 17:43:29,717 - INFO - Extracted list data: CPSY 2990
+2026-02-06 17:43:29,889 - INFO - Processing course index 335
+2026-02-06 17:43:31,133 - INFO - Extracted list data: CSCI 0081
+2026-02-06 17:43:31,295 - INFO - Processing course index 336
+2026-02-06 17:43:32,735 - INFO - Extracted list data: CSCI 0082
+2026-02-06 17:43:32,911 - INFO - Processing course index 337
+2026-02-06 17:43:33,903 - INFO - Extracted list data: CSCI 0111
+2026-02-06 17:43:34,062 - INFO - Processing course index 338
+2026-02-06 17:43:35,108 - INFO - Extracted list data: CSCI 0200
+2026-02-06 17:43:35,263 - INFO - Processing course index 339
+2026-02-06 17:43:36,289 - INFO - Extracted list data: CSCI 0220
+2026-02-06 17:43:36,514 - INFO - Processing course index 340
+2026-02-06 17:43:37,859 - INFO - Extracted list data: CSCI 0300
+2026-02-06 17:43:38,035 - INFO - Processing course index 341
+2026-02-06 17:43:39,075 - INFO - Extracted list data: CSCI 0410
+2026-02-06 17:43:39,245 - INFO - Processing course index 342
+2026-02-06 17:43:40,228 - INFO - Extracted list data: CSCI 0500
+2026-02-06 17:43:40,427 - INFO - Processing course index 343
+2026-02-06 17:43:41,802 - INFO - Extracted list data: CSCI 1302
+2026-02-06 17:43:41,988 - INFO - Processing course index 344
+2026-02-06 17:43:42,932 - INFO - Extracted list data: CSCI 1310
+2026-02-06 17:43:43,087 - INFO - Processing course index 345
+2026-02-06 17:43:44,365 - INFO - Extracted list data: CSCI 1377
+2026-02-06 17:43:44,587 - INFO - Processing course index 346
+2026-02-06 17:43:45,967 - INFO - Extracted list data: CSCI 1380
+2026-02-06 17:43:46,196 - INFO - Processing course index 347
+2026-02-06 17:43:47,636 - INFO - Extracted list data: CSCI 1385
+2026-02-06 17:43:47,810 - INFO - Processing course index 348
+2026-02-06 17:43:49,137 - INFO - Extracted list data: CSCI 1411
+2026-02-06 17:43:49,293 - INFO - Processing course index 349
+2026-02-06 17:43:50,688 - INFO - Extracted list data: CSCI 1420
+2026-02-06 17:43:50,864 - INFO - Processing course index 350
+2026-02-06 17:43:51,957 - INFO - Extracted list data: CSCI 1430
+2026-02-06 17:43:52,124 - INFO - Processing course index 351
+2026-02-06 17:43:53,428 - INFO - Extracted list data: CSCI 1460
+2026-02-06 17:43:53,670 - INFO - Processing course index 352
+2026-02-06 17:43:55,080 - INFO - Extracted list data: CSCI 1470
+2026-02-06 17:43:55,267 - INFO - Processing course index 353
+2026-02-06 17:43:56,261 - INFO - Extracted list data: CSCI 1491
+2026-02-06 17:43:56,423 - INFO - Processing course index 354
+2026-02-06 17:43:57,342 - INFO - Extracted list data: CSCI 1515
+2026-02-06 17:43:57,503 - INFO - Processing course index 355
+2026-02-06 17:43:58,465 - INFO - Extracted list data: CSCI 1620
+2026-02-06 17:43:58,688 - INFO - Processing course index 356
+2026-02-06 17:43:59,731 - INFO - Extracted list data: CSCI 1660
+2026-02-06 17:43:59,905 - INFO - Processing course index 357
+2026-02-06 17:44:00,969 - INFO - Extracted list data: CSCI 1680
+2026-02-06 17:44:01,144 - INFO - Processing course index 358
+2026-02-06 17:44:02,154 - INFO - Extracted list data: CSCI 1710
+2026-02-06 17:44:02,326 - INFO - Processing course index 359
+2026-02-06 17:44:03,319 - INFO - Extracted list data: CSCI 1800
+2026-02-06 17:44:03,534 - INFO - Processing course index 360
+2026-02-06 17:44:04,623 - INFO - Extracted list data: CSCI 1805
+2026-02-06 17:44:04,796 - INFO - Processing course index 361
+2026-02-06 17:44:06,186 - INFO - Extracted list data: CSCI 1820
+2026-02-06 17:44:06,349 - INFO - Processing course index 362
+2026-02-06 17:44:07,798 - INFO - Extracted list data: CSCI 1851
+2026-02-06 17:44:07,986 - INFO - Processing course index 363
+2026-02-06 17:44:09,347 - INFO - Extracted list data: CSCI 1880
+2026-02-06 17:44:09,537 - INFO - Processing course index 364
+2026-02-06 17:44:10,962 - INFO - Extracted list data: CSCI 1950U
+2026-02-06 17:44:11,129 - INFO - Processing course index 365
+2026-02-06 17:44:12,481 - INFO - Extracted list data: CSCI 1951T
+2026-02-06 17:44:12,643 - INFO - Processing course index 366
+2026-02-06 17:44:13,963 - INFO - Extracted list data: CSCI 1952B
+2026-02-06 17:44:14,142 - INFO - Processing course index 367
+2026-02-06 17:44:15,568 - INFO - Extracted list data: CSCI 1952D
+2026-02-06 17:44:15,786 - INFO - Processing course index 368
+2026-02-06 17:44:17,243 - INFO - Extracted list data: CSCI 1952Y
+2026-02-06 17:44:17,411 - INFO - Processing course index 369
+2026-02-06 17:44:18,418 - INFO - Extracted list data: CSCI 1952Z
+2026-02-06 17:44:18,590 - INFO - Processing course index 370
+2026-02-06 17:44:20,023 - INFO - Extracted list data: CSCI 1953B
+2026-02-06 17:44:20,215 - INFO - Processing course index 371
+2026-02-06 17:44:21,357 - INFO - Extracted list data: CSCI 1970
+2026-02-06 17:44:21,548 - INFO - Processing course index 372
+2026-02-06 17:44:22,609 - INFO - Extracted list data: CSCI 1972
+2026-02-06 17:44:22,830 - INFO - Processing course index 373
+2026-02-06 17:44:23,890 - INFO - Extracted list data: CSCI 1973
+2026-02-06 17:44:24,086 - INFO - Processing course index 374
+2026-02-06 17:44:25,675 - INFO - Extracted list data: CSCI 2002
+2026-02-06 17:44:25,855 - INFO - Processing course index 375
+2026-02-06 17:44:27,063 - INFO - Extracted list data: CSCI 2200
+2026-02-06 17:44:27,227 - INFO - Processing course index 376
+2026-02-06 17:44:28,786 - INFO - Extracted list data: CSCI 2240
+2026-02-06 17:44:29,004 - INFO - Processing course index 377
+2026-02-06 17:44:30,097 - INFO - Extracted list data: CSCI 2380
+2026-02-06 17:44:30,259 - INFO - Processing course index 378
+2026-02-06 17:44:31,596 - INFO - Extracted list data: CSCI 2450
+2026-02-06 17:44:31,802 - INFO - Processing course index 379
+2026-02-06 17:44:32,949 - INFO - Extracted list data: CSCI 2660
+2026-02-06 17:44:33,121 - INFO - Processing course index 380
+2026-02-06 17:44:34,469 - INFO - Extracted list data: CSCI 2680
+2026-02-06 17:44:34,644 - INFO - Processing course index 381
+2026-02-06 17:44:36,024 - INFO - Extracted list data: CSCI 2820
+2026-02-06 17:44:36,195 - INFO - Processing course index 382
+2026-02-06 17:44:37,671 - INFO - Extracted list data: CSCI 2890
+2026-02-06 17:44:37,850 - INFO - Processing course index 383
+2026-02-06 17:44:39,360 - INFO - Extracted list data: CSCI 2951K
+2026-02-06 17:44:39,519 - INFO - Processing course index 384
+2026-02-06 17:44:40,813 - INFO - Extracted list data: CSCI 2951O
+2026-02-06 17:44:41,000 - INFO - Processing course index 385
+2026-02-06 17:44:42,529 - INFO - Extracted list data: CSCI 2951X
+2026-02-06 17:44:42,674 - INFO - Processing course index 386
+2026-02-06 17:44:44,064 - INFO - Extracted list data: CSCI 2952N
+2026-02-06 17:44:44,213 - INFO - Processing course index 387
+2026-02-06 17:44:45,614 - INFO - Extracted list data: CSCI 2952S
+2026-02-06 17:44:45,793 - INFO - Processing course index 388
+2026-02-06 17:44:47,151 - INFO - Extracted list data: CSCI 2952T
+2026-02-06 17:44:47,151 - INFO - Clicking course element...
+2026-02-06 17:44:48,751 - INFO - Clicked.
+2026-02-06 17:44:56,330 - INFO - Processing course index 389
+2026-02-06 17:44:58,131 - INFO - Extracted list data: CSCI 2952W
+2026-02-06 17:44:58,132 - INFO - Clicking course element...
+2026-02-06 17:44:59,631 - INFO - Clicked.
+2026-02-06 17:45:07,124 - INFO - Processing course index 390
+2026-02-06 17:45:08,457 - INFO - Extracted list data: CSCI 2980
+2026-02-06 17:45:08,457 - INFO - Clicking course element...
+2026-02-06 17:45:10,077 - INFO - Clicked.
+2026-02-06 17:45:53,501 - INFO - Processing course index 391
+2026-02-06 17:45:55,236 - INFO - Extracted list data: CSCI 2990
+2026-02-06 17:45:55,237 - INFO - Clicking course element...
+2026-02-06 17:45:56,991 - INFO - Clicked.
+2026-02-06 17:46:04,133 - INFO - Processing course index 392
+2026-02-06 17:46:05,208 - INFO - Extracted list data: CZCH 0200
+2026-02-06 17:46:05,209 - INFO - Clicking course element...
+2026-02-06 17:46:06,820 - INFO - Clicked.
+2026-02-06 17:46:16,726 - INFO - Processing course index 393
+2026-02-06 17:46:17,899 - INFO - Extracted list data: CZCH 1000
+2026-02-06 17:46:17,900 - INFO - Clicking course element...
+2026-02-06 17:46:19,757 - INFO - Clicked.
+2026-02-06 17:46:27,024 - INFO - Processing course index 394
+2026-02-06 17:46:28,512 - INFO - Extracted list data: DATA 0200
+2026-02-06 17:46:28,512 - INFO - Clicking course element...
+2026-02-06 17:46:30,221 - INFO - Clicked.
+2026-02-06 17:46:37,681 - INFO - Processing course index 395
+2026-02-06 17:46:39,298 - INFO - Extracted list data: DATA 1491
+2026-02-06 17:46:39,299 - INFO - Clicking course element...
+2026-02-06 17:46:40,978 - INFO - Clicked.
+2026-02-06 17:46:50,365 - INFO - Processing course index 396
+2026-02-06 17:46:51,559 - INFO - Extracted list data: DATA 1500
+2026-02-06 17:46:51,560 - INFO - Clicking course element...
+2026-02-06 17:46:53,169 - INFO - Clicked.
+2026-02-06 17:47:00,125 - INFO - Processing course index 397
+2026-02-06 17:47:01,387 - INFO - Extracted list data: DATA 1720
+2026-02-06 17:47:01,387 - INFO - Clicking course element...
+2026-02-06 17:47:02,960 - INFO - Clicked.
+2026-02-06 17:47:13,876 - INFO - Processing course index 398
+2026-02-06 17:47:15,393 - INFO - Extracted list data: DATA 2020
+2026-02-06 17:47:15,394 - INFO - Clicking course element...
+2026-02-06 17:47:17,296 - INFO - Clicked.
+2026-02-06 17:47:24,521 - INFO - Processing course index 399
+2026-02-06 17:47:25,959 - INFO - Extracted list data: DATA 2050
+2026-02-06 17:47:25,960 - INFO - Clicking course element...
+2026-02-06 17:47:27,614 - INFO - Clicked.
+2026-02-06 17:47:34,862 - INFO - Processing course index 400
+2026-02-06 17:47:36,306 - INFO - Extracted list data: DATA 2070A
+2026-02-06 17:47:36,307 - INFO - Clicking course element...
+2026-02-06 17:47:37,921 - INFO - Clicked.
+2026-02-06 17:47:45,061 - INFO - Processing course index 401
+2026-02-06 17:47:46,614 - INFO - Extracted list data: DATA 2980
+2026-02-06 17:47:46,615 - INFO - Clicking course element...
+2026-02-06 17:47:48,222 - INFO - Clicked.
+2026-02-06 17:47:55,463 - INFO - Processing course index 402
+2026-02-06 17:47:56,977 - INFO - Extracted list data: DSIO 2000
+2026-02-06 17:47:56,978 - INFO - Clicking course element...
+2026-02-06 17:47:58,599 - INFO - Clicked.
+2026-02-06 17:48:05,731 - INFO - Processing course index 403
+2026-02-06 17:48:07,125 - INFO - Extracted list data: DSIO 2010
+2026-02-06 17:48:07,126 - INFO - Clicking course element...
+2026-02-06 17:48:08,812 - INFO - Clicked.
+2026-02-06 17:48:16,175 - INFO - Processing course index 404
+2026-02-06 17:48:17,568 - INFO - Extracted list data: DSIO 2100
+2026-02-06 17:48:17,568 - INFO - Clicking course element...
+2026-02-06 17:48:19,244 - INFO - Clicked.
+2026-02-06 17:48:26,425 - INFO - Processing course index 405
+2026-02-06 17:48:27,877 - INFO - Extracted list data: DSIO 2110
+2026-02-06 17:48:27,877 - INFO - Clicking course element...
+2026-02-06 17:48:29,531 - INFO - Clicked.
+2026-02-06 17:48:36,931 - INFO - Processing course index 406
+2026-02-06 17:48:38,223 - INFO - Extracted list data: EAST 0140
+2026-02-06 17:48:38,223 - INFO - Clicking course element...
+2026-02-06 17:48:39,939 - INFO - Clicked.
+2026-02-06 17:48:47,128 - INFO - Processing course index 407
+2026-02-06 17:48:48,704 - INFO - Extracted list data: EAST 0303
+2026-02-06 17:48:48,705 - INFO - Clicking course element...
+2026-02-06 17:48:50,522 - INFO - Clicked.
+2026-02-06 17:48:57,862 - INFO - Processing course index 408
+2026-02-06 17:48:59,575 - INFO - Extracted list data: EAST 0307
+2026-02-06 17:48:59,575 - INFO - Clicking course element...
+2026-02-06 17:49:01,381 - INFO - Clicked.
+2026-02-06 17:49:08,515 - INFO - Processing course index 409
+2026-02-06 17:49:09,875 - INFO - Extracted list data: EAST 0309
+2026-02-06 17:49:09,876 - INFO - Clicking course element...
+2026-02-06 17:49:11,612 - INFO - Clicked.
+2026-02-06 17:49:18,967 - INFO - Processing course index 410
+2026-02-06 17:49:20,290 - INFO - Extracted list data: EAST 0406
+2026-02-06 17:49:20,290 - INFO - Clicking course element...
+2026-02-06 17:49:21,897 - INFO - Clicked.
+2026-02-06 17:49:29,322 - INFO - Processing course index 411
+2026-02-06 17:49:30,681 - INFO - Extracted list data: EAST 1910
+2026-02-06 17:49:30,682 - INFO - Clicking course element...
+2026-02-06 17:49:32,357 - INFO - Clicked.
+2026-02-06 17:49:43,224 - INFO - Processing course index 412
+2026-02-06 17:49:44,530 - INFO - Extracted list data: EAST 1920
+2026-02-06 17:49:44,530 - INFO - Clicking course element...
+2026-02-06 17:49:46,134 - INFO - Clicked.
+2026-02-06 17:49:56,935 - INFO - Processing course index 413
+2026-02-06 17:49:58,263 - INFO - Extracted list data: EAST 1981
+2026-02-06 17:49:58,263 - INFO - Clicking course element...
+2026-02-06 17:49:59,929 - INFO - Clicked.
+2026-02-06 17:50:09,375 - INFO - Processing course index 414
+2026-02-06 17:50:10,792 - INFO - Extracted list data: ECON 0110
+2026-02-06 17:50:10,792 - INFO - Clicking course element...
+2026-02-06 17:50:12,464 - INFO - Clicked.
+2026-02-06 17:50:19,714 - INFO - Processing course index 415
+2026-02-06 17:50:21,185 - INFO - Extracted list data: ECON 0170
+2026-02-06 17:50:21,185 - INFO - Clicking course element...
+2026-02-06 17:50:22,965 - INFO - Clicked.
+2026-02-06 17:50:30,423 - INFO - Processing course index 416
+2026-02-06 17:50:31,208 - INFO - Extracted list data: ECON 0710
+2026-02-06 17:50:31,208 - INFO - Clicking course element...
+2026-02-06 17:50:32,700 - INFO - Clicked.
+2026-02-06 17:50:41,333 - INFO - Processing course index 417
+2026-02-06 17:50:42,140 - INFO - Extracted list data: ECON 1090
+2026-02-06 17:50:42,141 - INFO - Clicking course element...
+2026-02-06 17:50:43,516 - INFO - Clicked.
+2026-02-06 17:50:50,641 - INFO - Processing course index 418
+2026-02-06 17:50:52,126 - INFO - Extracted list data: ECON 1110
+2026-02-06 17:50:52,126 - INFO - Clicking course element...
+2026-02-06 17:50:53,831 - INFO - Clicked.
+2026-02-06 17:51:01,308 - INFO - Processing course index 419
+2026-02-06 17:51:02,572 - INFO - Extracted list data: ECON 1130
+2026-02-06 17:51:02,573 - INFO - Clicking course element...
+2026-02-06 17:51:04,227 - INFO - Clicked.
+2026-02-06 17:51:13,440 - INFO - Processing course index 420
+2026-02-06 17:51:14,903 - INFO - Extracted list data: ECON 1170
+2026-02-06 17:51:14,904 - INFO - Clicking course element...
+2026-02-06 17:51:16,511 - INFO - Clicked.
+2026-02-06 17:51:24,055 - INFO - Processing course index 421
+2026-02-06 17:51:25,451 - INFO - Extracted list data: ECON 1210
+2026-02-06 17:51:25,451 - INFO - Clicking course element...
+2026-02-06 17:51:27,201 - INFO - Clicked.
+2026-02-06 17:51:36,713 - INFO - Processing course index 422
+2026-02-06 17:51:38,147 - INFO - Extracted list data: ECON 1310
+2026-02-06 17:51:38,148 - INFO - Clicking course element...
+2026-02-06 17:51:39,833 - INFO - Clicked.
+2026-02-06 17:51:47,254 - INFO - Processing course index 423
+2026-02-06 17:51:48,556 - INFO - Extracted list data: ECON 1330
+2026-02-06 17:51:48,557 - INFO - Clicking course element...
+2026-02-06 17:51:50,127 - INFO - Clicked.
+2026-02-06 17:51:57,813 - INFO - Processing course index 424
+2026-02-06 17:51:59,287 - INFO - Extracted list data: ECON 1345
+2026-02-06 17:51:59,288 - INFO - Clicking course element...
+2026-02-06 17:52:01,007 - INFO - Clicked.
+2026-02-06 17:52:08,309 - INFO - Processing course index 425
+2026-02-06 17:52:09,848 - INFO - Extracted list data: ECON 1360
+2026-02-06 17:52:09,849 - INFO - Clicking course element...
+2026-02-06 17:52:11,663 - INFO - Clicked.
+2026-02-06 17:52:19,149 - INFO - Processing course index 426
+2026-02-06 17:52:20,714 - INFO - Extracted list data: ECON 1410
+2026-02-06 17:52:20,714 - INFO - Clicking course element...
+2026-02-06 17:52:22,731 - INFO - Clicked.
+2026-02-06 17:52:30,216 - INFO - Processing course index 427
+2026-02-06 17:52:31,517 - INFO - Extracted list data: ECON 1420
+2026-02-06 17:52:31,518 - INFO - Clicking course element...
+2026-02-06 17:52:33,207 - INFO - Clicked.
+2026-02-06 17:52:42,503 - INFO - Processing course index 428
+2026-02-06 17:52:43,919 - INFO - Extracted list data: ECON 1430
+2026-02-06 17:52:43,920 - INFO - Clicking course element...
+2026-02-06 17:52:45,520 - INFO - Clicked.
+2026-02-06 17:52:53,150 - INFO - Processing course index 429
+2026-02-06 17:52:54,876 - INFO - Extracted list data: ECON 1470
+2026-02-06 17:52:54,877 - INFO - Clicking course element...
+2026-02-06 17:52:56,805 - INFO - Clicked.
+2026-02-06 17:53:04,103 - INFO - Processing course index 430
+2026-02-06 17:53:05,616 - INFO - Extracted list data: ECON 1540
+2026-02-06 17:53:05,616 - INFO - Clicking course element...
+2026-02-06 17:53:07,184 - INFO - Clicked.
+2026-02-06 17:53:14,313 - INFO - Processing course index 431
+2026-02-06 17:53:15,722 - INFO - Extracted list data: ECON 1550
+2026-02-06 17:53:15,723 - INFO - Clicking course element...
+2026-02-06 17:53:17,593 - INFO - Clicked.
+2026-02-06 17:53:24,641 - INFO - Processing course index 432
+2026-02-06 17:53:26,135 - INFO - Extracted list data: ECON 1560
+2026-02-06 17:53:26,135 - INFO - Clicking course element...
+2026-02-06 17:53:27,839 - INFO - Clicked.
+2026-02-06 17:53:34,880 - INFO - Processing course index 433
+2026-02-06 17:53:36,148 - INFO - Extracted list data: ECON 1620
+2026-02-06 17:53:36,148 - INFO - Clicking course element...
+2026-02-06 17:53:37,868 - INFO - Clicked.
+2026-02-06 17:53:46,339 - INFO - Processing course index 434
+2026-02-06 17:53:47,404 - INFO - Extracted list data: ECON 1629
+2026-02-06 17:53:47,405 - INFO - Clicking course element...
+2026-02-06 17:53:49,141 - INFO - Clicked.
+2026-02-06 17:53:58,140 - INFO - Processing course index 435
+2026-02-06 17:53:59,534 - INFO - Extracted list data: ECON 1630
+2026-02-06 17:53:59,534 - INFO - Clicking course element...
+2026-02-06 17:54:01,198 - INFO - Clicked.
+2026-02-06 17:54:10,899 - INFO - Processing course index 436
+2026-02-06 17:54:12,169 - INFO - Extracted list data: ECON 1710
+2026-02-06 17:54:12,170 - INFO - Clicking course element...
+2026-02-06 17:54:14,022 - INFO - Clicked.
+2026-02-06 17:54:23,736 - INFO - Processing course index 437
+2026-02-06 17:54:25,446 - INFO - Extracted list data: ECON 1720
+2026-02-06 17:54:25,447 - INFO - Clicking course element...
+2026-02-06 17:54:27,081 - INFO - Clicked.
+2026-02-06 17:54:34,782 - INFO - Processing course index 438
+2026-02-06 17:54:36,127 - INFO - Extracted list data: ECON 1770
+2026-02-06 17:54:36,127 - INFO - Clicking course element...
+2026-02-06 17:54:37,645 - INFO - Clicked.
+2026-02-06 17:54:45,133 - INFO - Processing course index 439
+2026-02-06 17:54:46,555 - INFO - Extracted list data: ECON 1805
+2026-02-06 17:54:46,556 - INFO - Clicking course element...
+2026-02-06 17:54:48,210 - INFO - Clicked.
+2026-02-06 17:54:55,673 - INFO - Processing course index 440
+2026-02-06 17:54:57,048 - INFO - Extracted list data: ECON 1830
+2026-02-06 17:54:57,048 - INFO - Clicking course element...
+2026-02-06 17:54:58,780 - INFO - Clicked.
+2026-02-06 17:55:06,301 - INFO - Processing course index 441
+2026-02-06 17:55:07,694 - INFO - Extracted list data: ECON 1960
+2026-02-06 17:55:07,694 - INFO - Clicking course element...
+2026-02-06 17:55:09,483 - INFO - Clicked.
+2026-02-06 17:55:17,036 - INFO - Processing course index 442
+2026-02-06 17:55:18,172 - INFO - Extracted list data: ECON 1970
+2026-02-06 17:55:18,173 - INFO - Clicking course element...
+2026-02-06 17:55:19,858 - INFO - Clicked.
+2026-02-06 17:55:29,135 - INFO - Processing course index 443
+2026-02-06 17:55:30,636 - INFO - Extracted list data: ECON 2020
+2026-02-06 17:55:30,637 - INFO - Clicking course element...
+2026-02-06 17:55:32,309 - INFO - Clicked.
+2026-02-06 17:55:39,349 - INFO - Processing course index 444
+2026-02-06 17:55:40,695 - INFO - Extracted list data: ECON 2040
+2026-02-06 17:55:40,695 - INFO - Clicking course element...
+2026-02-06 17:55:42,334 - INFO - Clicked.
+2026-02-06 17:55:49,382 - INFO - Processing course index 445
+2026-02-06 17:55:50,741 - INFO - Extracted list data: ECON 2060
+2026-02-06 17:55:50,742 - INFO - Clicking course element...
+2026-02-06 17:55:52,326 - INFO - Clicked.
+2026-02-06 17:55:59,218 - INFO - Processing course index 446
+2026-02-06 17:56:00,585 - INFO - Extracted list data: ECON 2080
+2026-02-06 17:56:00,586 - INFO - Clicking course element...
+2026-02-06 17:56:02,192 - INFO - Clicked.
+2026-02-06 17:56:09,463 - INFO - Processing course index 447
+2026-02-06 17:56:10,914 - INFO - Extracted list data: ECON 2260
+2026-02-06 17:56:10,914 - INFO - Clicking course element...
+2026-02-06 17:56:12,498 - INFO - Clicked.
+2026-02-06 17:56:19,506 - INFO - Processing course index 448
+2026-02-06 17:56:20,874 - INFO - Extracted list data: ECON 2310
+2026-02-06 17:56:20,874 - INFO - Clicking course element...
+2026-02-06 17:56:22,458 - INFO - Clicked.
+2026-02-06 17:56:29,580 - INFO - Processing course index 449
+2026-02-06 17:56:30,869 - INFO - Extracted list data: ECON 2400
+2026-02-06 17:56:30,870 - INFO - Clicking course element...
+2026-02-06 17:56:32,485 - INFO - Clicked.
+2026-02-06 17:56:39,468 - INFO - Processing course index 450
+2026-02-06 17:56:40,681 - INFO - Extracted list data: ECON 2410
+2026-02-06 17:56:40,682 - INFO - Clicking course element...
+2026-02-06 17:56:42,288 - INFO - Clicked.
+2026-02-06 17:56:49,121 - INFO - Processing course index 451
+2026-02-06 17:56:50,470 - INFO - Extracted list data: ECON 2500
+2026-02-06 17:56:50,470 - INFO - Clicking course element...
+2026-02-06 17:56:51,923 - INFO - Clicked.
+2026-02-06 17:56:58,901 - INFO - Processing course index 452
+2026-02-06 17:57:00,090 - INFO - Extracted list data: ECON 2520
+2026-02-06 17:57:00,090 - INFO - Clicking course element...
+2026-02-06 17:57:01,535 - INFO - Clicked.
+2026-02-06 17:57:08,920 - INFO - Processing course index 453
+2026-02-06 17:57:10,330 - INFO - Extracted list data: ECON 2530
+2026-02-06 17:57:10,330 - INFO - Clicking course element...
+2026-02-06 17:57:12,079 - INFO - Clicked.
+2026-02-06 17:57:19,555 - INFO - Processing course index 454
+2026-02-06 17:57:20,928 - INFO - Extracted list data: ECON 2630
+2026-02-06 17:57:20,928 - INFO - Clicking course element...
+2026-02-06 17:57:22,672 - INFO - Clicked.
+2026-02-06 17:57:30,062 - INFO - Processing course index 455
+2026-02-06 17:57:31,436 - INFO - Extracted list data: ECON 2840
+2026-02-06 17:57:31,437 - INFO - Clicking course element...
+2026-02-06 17:57:33,104 - INFO - Clicked.
+2026-02-06 17:57:40,403 - INFO - Processing course index 456
+2026-02-06 17:57:41,899 - INFO - Extracted list data: ECON 2890C
+2026-02-06 17:57:41,900 - INFO - Clicking course element...
+2026-02-06 17:57:43,750 - INFO - Clicked.
+2026-02-06 17:57:51,403 - INFO - Processing course index 457
+2026-02-06 17:57:53,273 - INFO - Extracted list data: ECON 2930
+2026-02-06 17:57:53,274 - INFO - Clicking course element...
+2026-02-06 17:57:55,144 - INFO - Clicked.
+2026-02-06 17:58:02,558 - INFO - Processing course index 458
+2026-02-06 17:58:04,024 - INFO - Extracted list data: ECON 2950
+2026-02-06 17:58:04,025 - INFO - Clicking course element...
+2026-02-06 17:58:05,684 - INFO - Clicked.
+2026-02-06 17:58:13,071 - INFO - Processing course index 459
+2026-02-06 17:58:14,766 - INFO - Extracted list data: ECON 2960
+2026-02-06 17:58:14,766 - INFO - Clicking course element...
+2026-02-06 17:58:16,371 - INFO - Clicked.
+2026-02-06 17:58:23,771 - INFO - Processing course index 460
+2026-02-06 17:58:25,261 - INFO - Extracted list data: ECON 2970
+2026-02-06 17:58:25,261 - INFO - Clicking course element...
+2026-02-06 17:58:27,011 - INFO - Clicked.
+2026-02-06 17:58:34,429 - INFO - Processing course index 461
+2026-02-06 17:58:35,645 - INFO - Extracted list data: ECON 2980
+2026-02-06 17:58:35,646 - INFO - Clicking course element...
+2026-02-06 17:58:37,230 - INFO - Clicked.
+2026-02-06 17:58:54,245 - INFO - Processing course index 462
+2026-02-06 17:58:55,634 - INFO - Extracted list data: ECON 2990
+2026-02-06 17:58:55,635 - INFO - Clicking course element...
+2026-02-06 17:58:57,192 - INFO - Clicked.
+2026-02-06 17:59:04,991 - INFO - Processing course index 463
+2026-02-06 17:59:06,817 - INFO - Extracted list data: EDUC 0120
+2026-02-06 17:59:06,818 - INFO - Clicking course element...
+2026-02-06 17:59:08,522 - INFO - Clicked.
+2026-02-06 17:59:15,720 - INFO - Processing course index 464
+2026-02-06 17:59:17,157 - INFO - Extracted list data: EDUC 0300
+2026-02-06 17:59:17,157 - INFO - Clicking course element...
+2026-02-06 17:59:18,774 - INFO - Clicked.
+2026-02-06 17:59:26,024 - INFO - Processing course index 465
+2026-02-06 17:59:27,569 - INFO - Extracted list data: EDUC 0515
+2026-02-06 17:59:27,570 - INFO - Clicking course element...
+2026-02-06 17:59:29,235 - INFO - Clicked.
+2026-02-06 17:59:36,228 - INFO - Processing course index 466
+2026-02-06 17:59:37,867 - INFO - Extracted list data: EDUC 0620
+2026-02-06 17:59:37,868 - INFO - Clicking course element...
+2026-02-06 17:59:39,672 - INFO - Clicked.
+2026-02-06 17:59:47,018 - INFO - Processing course index 467
+2026-02-06 17:59:48,440 - INFO - Extracted list data: EDUC 0830
+2026-02-06 17:59:48,441 - INFO - Clicking course element...
+2026-02-06 17:59:50,143 - INFO - Clicked.
+2026-02-06 17:59:57,478 - INFO - Processing course index 468
+2026-02-06 17:59:58,870 - INFO - Extracted list data: EDUC 0890
+2026-02-06 17:59:58,870 - INFO - Clicking course element...
+2026-02-06 18:00:00,406 - INFO - Clicked.
+2026-02-06 18:00:07,558 - INFO - Processing course index 469
+2026-02-06 18:00:08,943 - INFO - Extracted list data: EDUC 1185
+2026-02-06 18:00:08,943 - INFO - Clicking course element...
+2026-02-06 18:00:10,507 - INFO - Clicked.
+2026-02-06 18:00:17,769 - INFO - Processing course index 470
+2026-02-06 18:00:19,106 - INFO - Extracted list data: EDUC 1240
+2026-02-06 18:00:19,107 - INFO - Clicking course element...
+2026-02-06 18:00:20,691 - INFO - Clicked.
+2026-02-06 18:00:28,045 - INFO - Processing course index 471
+2026-02-06 18:00:29,470 - INFO - Extracted list data: EDUC 1289
+2026-02-06 18:00:29,470 - INFO - Clicking course element...
+2026-02-06 18:00:31,068 - INFO - Clicked.
+2026-02-06 18:00:38,376 - INFO - Processing course index 472
+2026-02-06 18:00:39,827 - INFO - Extracted list data: EDUC 1350
+2026-02-06 18:00:39,828 - INFO - Clicking course element...
+2026-02-06 18:00:41,444 - INFO - Clicked.
+2026-02-06 18:00:48,810 - INFO - Processing course index 473
+2026-02-06 18:00:50,223 - INFO - Extracted list data: EDUC 1475
+2026-02-06 18:00:50,224 - INFO - Clicking course element...
+2026-02-06 18:00:51,951 - INFO - Clicked.
+2026-02-06 18:00:59,198 - INFO - Processing course index 474
+2026-02-06 18:01:00,804 - INFO - Extracted list data: EDUC 1485
+2026-02-06 18:01:00,805 - INFO - Clicking course element...
+2026-02-06 18:01:02,607 - INFO - Clicked.
+2026-02-06 18:01:09,978 - INFO - Processing course index 475
+2026-02-06 18:01:10,940 - INFO - Extracted list data: EDUC 1675
+2026-02-06 18:01:10,941 - INFO - Clicking course element...
+2026-02-06 18:01:12,332 - INFO - Clicked.
+2026-02-06 18:01:19,581 - INFO - Processing course index 476
+2026-02-06 18:01:20,885 - INFO - Extracted list data: EDUC 1775
+2026-02-06 18:01:20,886 - INFO - Clicking course element...
+2026-02-06 18:01:22,479 - INFO - Clicked.
+2026-02-06 18:01:29,575 - INFO - Processing course index 477
+2026-02-06 18:01:30,709 - INFO - Extracted list data: EDUC 1970
+2026-02-06 18:01:30,709 - INFO - Clicking course element...
+2026-02-06 18:01:32,253 - INFO - Clicked.
+2026-02-06 18:01:46,972 - INFO - Processing course index 478
+2026-02-06 18:01:48,350 - INFO - Extracted list data: EDUC 1991
+2026-02-06 18:01:48,350 - INFO - Clicking course element...
+2026-02-06 18:01:50,015 - INFO - Clicked.
+2026-02-06 18:01:59,539 - INFO - Processing course index 479
+2026-02-06 18:02:00,495 - INFO - Extracted list data: EDUC 2350
+2026-02-06 18:02:00,496 - INFO - Clicking course element...
+2026-02-06 18:02:02,078 - INFO - Clicked.
+2026-02-06 18:02:09,184 - INFO - Processing course index 480
+2026-02-06 18:02:10,683 - INFO - Extracted list data: EDUC 2380
+2026-02-06 18:02:10,683 - INFO - Clicking course element...
+2026-02-06 18:02:12,096 - INFO - Clicked.
+2026-02-06 18:02:17,832 - INFO - Processing course index 481
+2026-02-06 18:02:19,461 - INFO - Extracted list data: EDUC 2390
+2026-02-06 18:02:19,461 - INFO - Clicking course element...
+2026-02-06 18:02:21,313 - INFO - Clicked.
+2026-02-06 18:02:28,773 - INFO - Processing course index 482
+2026-02-06 18:02:30,002 - INFO - Extracted list data: EDUC 2530A
+2026-02-06 18:02:30,002 - INFO - Clicking course element...
+2026-02-06 18:02:31,603 - INFO - Clicked.
+2026-02-06 18:02:38,987 - INFO - Processing course index 483
+2026-02-06 18:02:40,352 - INFO - Extracted list data: EDUC 2530B
+2026-02-06 18:02:40,352 - INFO - Clicking course element...
+2026-02-06 18:02:42,072 - INFO - Clicked.
+2026-02-06 18:02:49,669 - INFO - Processing course index 484
+2026-02-06 18:02:51,299 - INFO - Extracted list data: EDUC 2530C
+2026-02-06 18:02:51,299 - INFO - Clicking course element...
+2026-02-06 18:02:52,966 - INFO - Clicked.
+2026-02-06 18:03:00,176 - INFO - Processing course index 485
+2026-02-06 18:03:01,423 - INFO - Extracted list data: EDUC 2530D
+2026-02-06 18:03:01,424 - INFO - Clicking course element...
+2026-02-06 18:03:03,222 - INFO - Clicked.
+2026-02-06 18:03:10,521 - INFO - Processing course index 486
+2026-02-06 18:03:12,021 - INFO - Extracted list data: EDUC 2545
+2026-02-06 18:03:12,022 - INFO - Clicking course element...
+2026-02-06 18:03:13,781 - INFO - Clicked.
+2026-02-06 18:03:21,098 - INFO - Processing course index 487
+2026-02-06 18:03:22,593 - INFO - Extracted list data: EDUC 2555
+2026-02-06 18:03:22,593 - INFO - Clicking course element...
+2026-02-06 18:03:24,355 - INFO - Clicked.
+2026-02-06 18:03:31,903 - INFO - Processing course index 488
+2026-02-06 18:03:33,163 - INFO - Extracted list data: EDUC 2575
+2026-02-06 18:03:33,164 - INFO - Clicking course element...
+2026-02-06 18:03:34,790 - INFO - Clicked.
+2026-02-06 18:03:44,841 - INFO - Processing course index 489
+2026-02-06 18:03:46,243 - INFO - Extracted list data: EDUC 2980
+2026-02-06 18:03:46,243 - INFO - Clicking course element...
+2026-02-06 18:03:47,902 - INFO - Clicked.
+2026-02-06 18:03:57,446 - INFO - Processing course index 490
+2026-02-06 18:03:58,801 - INFO - Extracted list data: EDUC 2990
+2026-02-06 18:03:58,801 - INFO - Clicking course element...
+2026-02-06 18:04:00,440 - INFO - Clicked.
+2026-02-06 18:04:07,921 - INFO - Processing course index 491
+2026-02-06 18:04:09,412 - INFO - Extracted list data: EEPS 0010
+2026-02-06 18:04:09,412 - INFO - Clicking course element...
+2026-02-06 18:04:11,092 - INFO - Clicked.
+2026-02-06 18:04:18,653 - INFO - Processing course index 492
+2026-02-06 18:04:20,236 - INFO - Extracted list data: EEPS 0160M
+2026-02-06 18:04:20,236 - INFO - Clicking course element...
+2026-02-06 18:04:22,076 - INFO - Clicked.
+2026-02-06 18:04:29,653 - INFO - Processing course index 493
+2026-02-06 18:04:31,058 - INFO - Extracted list data: EEPS 0160P
+2026-02-06 18:04:31,058 - INFO - Clicking course element...
+2026-02-06 18:04:32,738 - INFO - Clicked.
+2026-02-06 18:04:40,376 - INFO - Processing course index 494
+2026-02-06 18:04:41,837 - INFO - Extracted list data: EEPS 0230
+2026-02-06 18:04:41,838 - INFO - Clicking course element...
+2026-02-06 18:04:43,502 - INFO - Clicked.
+2026-02-06 18:04:50,987 - INFO - Processing course index 495
+2026-02-06 18:04:52,361 - INFO - Extracted list data: EEPS 0240
+2026-02-06 18:04:52,362 - INFO - Clicking course element...
+2026-02-06 18:04:54,170 - INFO - Clicked.
+2026-02-06 18:05:01,391 - INFO - Processing course index 496
+2026-02-06 18:05:02,959 - INFO - Extracted list data: EEPS 0360
+2026-02-06 18:05:02,960 - INFO - Clicking course element...
+2026-02-06 18:05:04,723 - INFO - Clicked.
+2026-02-06 18:05:11,922 - INFO - Processing course index 497
+2026-02-06 18:05:13,352 - INFO - Extracted list data: EEPS 0810
+2026-02-06 18:05:13,352 - INFO - Clicking course element...
+2026-02-06 18:05:14,996 - INFO - Clicked.
+2026-02-06 18:05:22,007 - INFO - Processing course index 498
+2026-02-06 18:05:23,426 - INFO - Extracted list data: EEPS 0820
+2026-02-06 18:05:23,427 - INFO - Clicking course element...
+2026-02-06 18:05:25,081 - INFO - Clicked.
+2026-02-06 18:05:32,427 - INFO - Processing course index 499
+2026-02-06 18:05:33,959 - INFO - Extracted list data: EEPS 0850
+2026-02-06 18:05:33,960 - INFO - Clicking course element...
+2026-02-06 18:05:35,696 - INFO - Clicked.
+2026-02-06 18:05:42,766 - INFO - Processing course index 500
+2026-02-06 18:05:44,105 - INFO - Extracted list data: EEPS 1310
+2026-02-06 18:05:44,105 - INFO - Clicking course element...
+2026-02-06 18:05:45,735 - INFO - Clicked.
+2026-02-06 18:05:53,119 - INFO - Processing course index 501
+2026-02-06 18:05:54,465 - INFO - Extracted list data: EEPS 1320
+2026-02-06 18:05:54,466 - INFO - Clicking course element...
+2026-02-06 18:05:56,159 - INFO - Clicked.
+2026-02-06 18:06:03,468 - INFO - Processing course index 502
+2026-02-06 18:06:04,809 - INFO - Extracted list data: EEPS 1330
+2026-02-06 18:06:04,810 - INFO - Clicking course element...
+2026-02-06 18:06:06,445 - INFO - Clicked.
+2026-02-06 18:06:13,616 - INFO - Processing course index 503
+2026-02-06 18:06:14,950 - INFO - Extracted list data: EEPS 1510
+2026-02-06 18:06:14,950 - INFO - Clicking course element...
+2026-02-06 18:06:16,531 - INFO - Clicked.
+2026-02-06 18:06:23,571 - INFO - Processing course index 504
+2026-02-06 18:06:25,429 - INFO - Extracted list data: EEPS 1650
+2026-02-06 18:06:25,430 - INFO - Clicking course element...
+2026-02-06 18:06:27,102 - INFO - Clicked.
+2026-02-06 18:06:34,304 - INFO - Processing course index 505
+2026-02-06 18:06:35,854 - INFO - Extracted list data: EEPS 1700
+2026-02-06 18:06:35,855 - INFO - Clicking course element...
+2026-02-06 18:06:37,673 - INFO - Clicked.
+2026-02-06 18:06:44,801 - INFO - Processing course index 506
+2026-02-06 18:06:46,402 - INFO - Extracted list data: EEPS 1720
+2026-02-06 18:06:46,402 - INFO - Clicking course element...
+2026-02-06 18:06:48,163 - INFO - Clicked.
+2026-02-06 18:06:55,248 - INFO - Processing course index 507
+2026-02-06 18:06:56,845 - INFO - Extracted list data: EEPS 1820
+2026-02-06 18:06:56,846 - INFO - Clicking course element...
+2026-02-06 18:06:58,433 - INFO - Clicked.
+2026-02-06 18:07:05,832 - INFO - Processing course index 508
+2026-02-06 18:07:06,889 - INFO - Extracted list data: EEPS 1870
+2026-02-06 18:07:06,889 - INFO - Clicking course element...
+2026-02-06 18:07:08,320 - INFO - Clicked.
+2026-02-06 18:07:15,447 - INFO - Processing course index 509
+2026-02-06 18:07:16,324 - INFO - Extracted list data: EEPS 1940
+2026-02-06 18:07:16,324 - INFO - Clicking course element...
+2026-02-06 18:07:17,867 - INFO - Clicked.
+2026-02-06 18:07:27,576 - INFO - Processing course index 510
+2026-02-06 18:07:29,149 - INFO - Extracted list data: EEPS 1960Z
+2026-02-06 18:07:29,149 - INFO - Clicking course element...
+2026-02-06 18:07:30,890 - INFO - Clicked.
+2026-02-06 18:07:38,366 - INFO - Processing course index 511
+2026-02-06 18:07:39,690 - INFO - Extracted list data: EEPS 1970
+2026-02-06 18:07:39,691 - INFO - Clicking course element...
+2026-02-06 18:07:41,449 - INFO - Clicked.
+2026-02-06 18:07:51,041 - INFO - Processing course index 512
+2026-02-06 18:07:52,241 - INFO - Extracted list data: EEPS 2450
+2026-02-06 18:07:52,242 - INFO - Clicking course element...
+2026-02-06 18:07:53,658 - INFO - Clicked.
+2026-02-06 18:08:00,955 - INFO - Processing course index 513
+2026-02-06 18:08:02,240 - INFO - Extracted list data: EEPS 2920X
+2026-02-06 18:08:02,240 - INFO - Clicking course element...
+2026-02-06 18:08:03,870 - INFO - Clicked.
+2026-02-06 18:08:11,258 - INFO - Processing course index 514
+2026-02-06 18:08:12,441 - INFO - Extracted list data: EEPS 2980
+2026-02-06 18:08:12,442 - INFO - Clicking course element...
+2026-02-06 18:08:14,089 - INFO - Clicked.
+2026-02-06 18:08:38,210 - INFO - Processing course index 515
+2026-02-06 18:08:39,755 - INFO - Extracted list data: EEPS 2990
+2026-02-06 18:08:39,755 - INFO - Clicking course element...
+2026-02-06 18:08:41,436 - INFO - Clicked.
+2026-02-06 18:08:48,627 - INFO - Processing course index 516
+2026-02-06 18:08:49,935 - INFO - Extracted list data: EGYT 1320
+2026-02-06 18:08:49,936 - INFO - Clicking course element...
+2026-02-06 18:08:51,526 - INFO - Clicked.
+2026-02-06 18:08:58,693 - INFO - Processing course index 517
+2026-02-06 18:09:00,131 - INFO - Extracted list data: EGYT 1430
+2026-02-06 18:09:00,131 - INFO - Clicking course element...
+2026-02-06 18:09:01,723 - INFO - Clicked.
+2026-02-06 18:09:09,144 - INFO - Processing course index 518
+2026-02-06 18:09:10,643 - INFO - Extracted list data: EGYT 1920
+2026-02-06 18:09:10,643 - INFO - Clicking course element...
+2026-02-06 18:09:12,610 - INFO - Clicked.
+2026-02-06 18:09:21,829 - INFO - Processing course index 519
+2026-02-06 18:09:23,077 - INFO - Extracted list data: EGYT 1990
+2026-02-06 18:09:23,077 - INFO - Clicking course element...
+2026-02-06 18:09:24,658 - INFO - Clicked.
+2026-02-06 18:09:33,403 - INFO - Processing course index 520
+2026-02-06 18:09:35,220 - INFO - Extracted list data: EGYT 2610
+2026-02-06 18:09:35,220 - INFO - Clicking course element...
+2026-02-06 18:09:36,914 - INFO - Clicked.
+2026-02-06 18:09:43,876 - INFO - Processing course index 521
+2026-02-06 18:09:45,364 - INFO - Extracted list data: EGYT 2970
+2026-02-06 18:09:45,365 - INFO - Clicking course element...
+2026-02-06 18:09:46,979 - INFO - Clicked.
+2026-02-06 18:09:54,387 - INFO - Processing course index 522
+2026-02-06 18:09:55,760 - INFO - Extracted list data: EGYT 2980
+2026-02-06 18:09:55,760 - INFO - Clicking course element...
+2026-02-06 18:09:57,391 - INFO - Clicked.
+2026-02-06 18:10:06,337 - INFO - Processing course index 523
+2026-02-06 18:10:07,654 - INFO - Extracted list data: EGYT 2990
+2026-02-06 18:10:07,655 - INFO - Clicking course element...
+2026-02-06 18:10:09,190 - INFO - Clicked.
+2026-02-06 18:10:16,540 - INFO - Processing course index 524
+2026-02-06 18:10:17,753 - INFO - Extracted list data: EINT 2400
+2026-02-06 18:10:17,753 - INFO - Clicking course element...
+2026-02-06 18:10:19,231 - INFO - Clicked.
+2026-02-06 18:10:28,668 - INFO - Processing course index 525
+2026-02-06 18:10:30,189 - INFO - Extracted list data: EINT 2500
+2026-02-06 18:10:30,189 - INFO - Clicking course element...
+2026-02-06 18:10:31,817 - INFO - Clicked.
+2026-02-06 18:10:38,637 - INFO - Processing course index 526
+2026-02-06 18:10:39,657 - INFO - Extracted list data: EMOW 0059
+2026-02-06 18:10:39,658 - INFO - Clicking course element...
+2026-02-06 18:10:41,062 - INFO - Clicked.
+2026-02-06 18:10:50,245 - INFO - Processing course index 527
+2026-02-06 18:10:51,471 - INFO - Extracted list data: EMOW 0210
+2026-02-06 18:10:51,471 - INFO - Clicking course element...
+2026-02-06 18:10:53,121 - INFO - Clicked.
+2026-02-06 18:11:03,204 - INFO - Processing course index 528
+2026-02-06 18:11:04,505 - INFO - Extracted list data: EMOW 1140
+2026-02-06 18:11:04,505 - INFO - Clicking course element...
+2026-02-06 18:11:06,102 - INFO - Clicked.
+2026-02-06 18:11:16,209 - INFO - Processing course index 529
+2026-02-06 18:11:17,615 - INFO - Extracted list data: EMOW 1262
+2026-02-06 18:11:17,616 - INFO - Clicking course element...
+2026-02-06 18:11:19,200 - INFO - Clicked.
+2026-02-06 18:11:29,143 - INFO - Processing course index 530
+2026-02-06 18:11:30,535 - INFO - Extracted list data: EMOW 1320
+2026-02-06 18:11:30,536 - INFO - Clicking course element...
+2026-02-06 18:11:32,097 - INFO - Clicked.
+2026-02-06 18:11:42,335 - INFO - Processing course index 531
+2026-02-06 18:11:43,947 - INFO - Extracted list data: EMOW 1411F
+2026-02-06 18:11:43,947 - INFO - Clicking course element...
+2026-02-06 18:11:45,621 - INFO - Clicked.
+2026-02-06 18:11:55,013 - INFO - Processing course index 532
+2026-02-06 18:11:56,526 - INFO - Extracted list data: EMOW 1978K
+2026-02-06 18:11:56,527 - INFO - Clicking course element...
+2026-02-06 18:11:58,188 - INFO - Clicked.
+2026-02-06 18:12:08,023 - INFO - Processing course index 533
+2026-02-06 18:12:09,295 - INFO - Extracted list data: EMOW 1980
+2026-02-06 18:12:09,295 - INFO - Clicking course element...
+2026-02-06 18:12:10,857 - INFO - Clicked.
+2026-02-06 18:12:17,882 - INFO - Processing course index 534
+2026-02-06 18:12:19,282 - INFO - Extracted list data: EMOW 2050
+2026-02-06 18:12:19,283 - INFO - Clicking course element...
+2026-02-06 18:12:20,979 - INFO - Clicked.
+2026-02-06 18:12:30,621 - INFO - Processing course index 535
+2026-02-06 18:12:32,083 - INFO - Extracted list data: EMOW 2361H
+2026-02-06 18:12:32,084 - INFO - Clicking course element...
+2026-02-06 18:12:33,847 - INFO - Clicked.
+2026-02-06 18:12:43,169 - INFO - Processing course index 536
+2026-02-06 18:12:44,262 - INFO - Extracted list data: ENGL 0101A
+2026-02-06 18:12:44,262 - INFO - Clicking course element...
+2026-02-06 18:12:45,927 - INFO - Clicked.
+2026-02-06 18:12:54,354 - INFO - Processing course index 537
+2026-02-06 18:12:55,805 - INFO - Extracted list data: ENGL 0150Y
+2026-02-06 18:12:55,806 - INFO - Clicking course element...
+2026-02-06 18:12:57,632 - INFO - Clicked.
+2026-02-06 18:13:05,086 - INFO - Processing course index 538
+2026-02-06 18:13:06,570 - INFO - Extracted list data: ENGL 0202M
+2026-02-06 18:13:06,570 - INFO - Clicking course element...
+2026-02-06 18:13:08,249 - INFO - Clicked.
+2026-02-06 18:13:15,576 - INFO - Processing course index 539
+2026-02-06 18:13:16,916 - INFO - Extracted list data: ENGL 0202N
+2026-02-06 18:13:16,917 - INFO - Clicking course element...
+2026-02-06 18:13:18,438 - INFO - Clicked.
+2026-02-06 18:13:25,928 - INFO - Processing course index 540
+2026-02-06 18:13:27,349 - INFO - Extracted list data: ENGL 0202P
+2026-02-06 18:13:27,349 - INFO - Clicking course element...
+2026-02-06 18:13:29,097 - INFO - Clicked.
+2026-02-06 18:13:36,620 - INFO - Processing course index 541
+2026-02-06 18:13:37,991 - INFO - Extracted list data: ENGL 0300P
+2026-02-06 18:13:37,991 - INFO - Clicking course element...
+2026-02-06 18:13:39,750 - INFO - Clicked.
+2026-02-06 18:13:46,923 - INFO - Processing course index 542
+2026-02-06 18:13:48,320 - INFO - Extracted list data: ENGL 0310R
+2026-02-06 18:13:48,320 - INFO - Clicking course element...
+2026-02-06 18:13:50,076 - INFO - Clicked.
+2026-02-06 18:13:57,392 - INFO - Processing course index 543
+2026-02-06 18:13:58,845 - INFO - Extracted list data: ENGL 0500T
+2026-02-06 18:13:58,845 - INFO - Clicking course element...
+2026-02-06 18:14:00,480 - INFO - Clicked.
+2026-02-06 18:14:07,797 - INFO - Processing course index 544
+2026-02-06 18:14:09,308 - INFO - Extracted list data: ENGL 0710Q
+2026-02-06 18:14:09,309 - INFO - Clicking course element...
+2026-02-06 18:14:11,057 - INFO - Clicked.
+2026-02-06 18:14:18,340 - INFO - Processing course index 545
+2026-02-06 18:14:19,834 - INFO - Extracted list data: ENGL 0800R
+2026-02-06 18:14:19,834 - INFO - Clicking course element...
+2026-02-06 18:14:21,536 - INFO - Clicked.
+2026-02-06 18:14:28,793 - INFO - Processing course index 546
+2026-02-06 18:14:30,180 - INFO - Extracted list data: ENGL 0800T
+2026-02-06 18:14:30,181 - INFO - Clicking course element...
+2026-02-06 18:14:31,781 - INFO - Clicked.
+2026-02-06 18:14:38,998 - INFO - Processing course index 547
+2026-02-06 18:14:40,440 - INFO - Extracted list data: ENGL 0900
+2026-02-06 18:14:40,440 - INFO - Clicking course element...
+2026-02-06 18:14:42,097 - INFO - Clicked.
+2026-02-06 18:14:49,376 - INFO - Processing course index 548
+2026-02-06 18:14:50,670 - INFO - Extracted list data: ENGL 0930
+2026-02-06 18:14:50,670 - INFO - Clicking course element...
+2026-02-06 18:14:52,251 - INFO - Clicked.
+2026-02-06 18:15:01,246 - INFO - Processing course index 549
+2026-02-06 18:15:02,599 - INFO - Extracted list data: ENGL 1030J
+2026-02-06 18:15:02,600 - INFO - Clicking course element...
+2026-02-06 18:15:04,147 - INFO - Clicked.
+2026-02-06 18:15:11,089 - INFO - Processing course index 550
+2026-02-06 18:15:12,426 - INFO - Extracted list data: ENGL 1030L
+2026-02-06 18:15:12,427 - INFO - Clicking course element...
+2026-02-06 18:15:14,027 - INFO - Clicked.
+2026-02-06 18:15:20,577 - INFO - Processing course index 551
+2026-02-06 18:15:21,971 - INFO - Extracted list data: ENGL 1050V
+2026-02-06 18:15:21,971 - INFO - Clicking course element...
+2026-02-06 18:15:23,718 - INFO - Clicked.
+2026-02-06 18:15:30,489 - INFO - Processing course index 552
+2026-02-06 18:15:31,631 - INFO - Extracted list data: ENGL 1050X
+2026-02-06 18:15:31,632 - INFO - Clicking course element...
+2026-02-06 18:15:33,117 - INFO - Clicked.
+2026-02-06 18:15:38,731 - INFO - Processing course index 553
+2026-02-06 18:15:39,740 - INFO - Extracted list data: ENGL 1050Z
+2026-02-06 18:15:39,741 - INFO - Clicking course element...
+2026-02-06 18:15:41,294 - INFO - Clicked.
+2026-02-06 18:15:47,706 - INFO - Processing course index 554
+2026-02-06 18:15:48,857 - INFO - Extracted list data: ENGL 1051A
+2026-02-06 18:15:48,857 - INFO - Clicking course element...
+2026-02-06 18:15:50,434 - INFO - Clicked.
+2026-02-06 18:15:57,453 - INFO - Processing course index 555
+2026-02-06 18:15:58,848 - INFO - Extracted list data: ENGL 1180P
+2026-02-06 18:15:58,848 - INFO - Clicking course element...
+2026-02-06 18:16:00,539 - INFO - Clicked.
+2026-02-06 18:16:07,818 - INFO - Processing course index 556
+2026-02-06 18:16:09,212 - INFO - Extracted list data: ENGL 1181D
+2026-02-06 18:16:09,213 - INFO - Clicking course element...
+2026-02-06 18:16:10,641 - INFO - Clicked.
+2026-02-06 18:16:17,478 - INFO - Processing course index 557
+2026-02-06 18:16:18,622 - INFO - Extracted list data: ENGL 1190X
+2026-02-06 18:16:18,622 - INFO - Clicking course element...
+2026-02-06 18:16:20,174 - INFO - Clicked.
+2026-02-06 18:16:27,340 - INFO - Processing course index 558
+2026-02-06 18:16:28,700 - INFO - Extracted list data: ENGL 1190Z
+2026-02-06 18:16:28,701 - INFO - Clicking course element...
+2026-02-06 18:16:30,167 - INFO - Clicked.
+2026-02-06 18:16:37,470 - INFO - Processing course index 559
+2026-02-06 18:16:38,564 - INFO - Extracted list data: ENGL 1191E
+2026-02-06 18:16:38,564 - INFO - Clicking course element...
+2026-02-06 18:16:40,194 - INFO - Clicked.
+2026-02-06 18:16:47,181 - INFO - Processing course index 560
+2026-02-06 18:16:48,222 - INFO - Extracted list data: ENGL 1200
+2026-02-06 18:16:48,223 - INFO - Clicking course element...
+2026-02-06 18:16:49,953 - INFO - Clicked.
+2026-02-06 18:17:02,752 - INFO - Processing course index 561
+2026-02-06 18:17:04,104 - INFO - Extracted list data: ENGL 1311Q
+2026-02-06 18:17:04,104 - INFO - Clicking course element...
+2026-02-06 18:17:05,587 - INFO - Clicked.
+2026-02-06 18:17:15,664 - INFO - Processing course index 562
+2026-02-06 18:17:16,900 - INFO - Extracted list data: ENGL 1380
+2026-02-06 18:17:16,900 - INFO - Clicking course element...
+2026-02-06 18:17:18,519 - INFO - Clicked.
+2026-02-06 18:17:27,436 - INFO - Processing course index 563
+2026-02-06 18:17:28,863 - INFO - Extracted list data: ENGL 1561I
+2026-02-06 18:17:28,863 - INFO - Clicking course element...
+2026-02-06 18:17:30,399 - INFO - Clicked.
+2026-02-06 18:17:37,487 - INFO - Processing course index 564
+2026-02-06 18:17:39,185 - INFO - Extracted list data: ENGL 1561M
+2026-02-06 18:17:39,186 - INFO - Clicking course element...
+2026-02-06 18:17:40,966 - INFO - Clicked.
+2026-02-06 18:17:48,086 - INFO - Processing course index 565
+2026-02-06 18:17:49,372 - INFO - Extracted list data: ENGL 1562B
+2026-02-06 18:17:49,372 - INFO - Clicking course element...
+2026-02-06 18:17:50,923 - INFO - Clicked.
+2026-02-06 18:17:58,063 - INFO - Processing course index 566
+2026-02-06 18:17:59,465 - INFO - Extracted list data: ENGL 1562Z
+2026-02-06 18:17:59,466 - INFO - Clicking course element...
+2026-02-06 18:18:01,102 - INFO - Clicked.
+2026-02-06 18:18:08,434 - INFO - Processing course index 567
+2026-02-06 18:18:09,744 - INFO - Extracted list data: ENGL 1580
+2026-02-06 18:18:09,745 - INFO - Clicking course element...
+2026-02-06 18:18:11,315 - INFO - Clicked.
+2026-02-06 18:18:21,259 - INFO - Processing course index 568
+2026-02-06 18:18:22,617 - INFO - Extracted list data: ENGL 1711D
+2026-02-06 18:18:22,617 - INFO - Clicking course element...
+2026-02-06 18:18:24,131 - INFO - Clicked.
+2026-02-06 18:18:33,106 - INFO - Processing course index 569
+2026-02-06 18:18:34,421 - INFO - Extracted list data: ENGL 1711E
+2026-02-06 18:18:34,422 - INFO - Clicking course element...
+2026-02-06 18:18:35,919 - INFO - Clicked.
+2026-02-06 18:18:43,054 - INFO - Processing course index 570
+2026-02-06 18:18:44,418 - INFO - Extracted list data: ENGL 1711V
+2026-02-06 18:18:44,419 - INFO - Clicking course element...
+2026-02-06 18:18:46,184 - INFO - Clicked.
+2026-02-06 18:18:53,418 - INFO - Processing course index 571
+2026-02-06 18:18:54,710 - INFO - Extracted list data: ENGL 1760E
+2026-02-06 18:18:54,710 - INFO - Clicking course element...
+2026-02-06 18:18:56,407 - INFO - Clicked.
+2026-02-06 18:19:03,378 - INFO - Processing course index 572
+2026-02-06 18:19:04,740 - INFO - Extracted list data: ENGL 1761J
+2026-02-06 18:19:04,741 - INFO - Clicking course element...
+2026-02-06 18:19:06,310 - INFO - Clicked.
+2026-02-06 18:19:13,418 - INFO - Processing course index 573
+2026-02-06 18:19:14,678 - INFO - Extracted list data: ENGL 1762V
+2026-02-06 18:19:14,679 - INFO - Clicking course element...
+2026-02-06 18:19:16,258 - INFO - Clicked.
+2026-02-06 18:19:23,541 - INFO - Processing course index 574
+2026-02-06 18:19:24,894 - INFO - Extracted list data: ENGL 1762W
+2026-02-06 18:19:24,894 - INFO - Clicking course element...
+2026-02-06 18:19:26,765 - INFO - Clicked.
+2026-02-06 18:19:36,261 - INFO - Processing course index 575
+2026-02-06 18:19:37,161 - INFO - Extracted list data: ENGL 1762Y
+2026-02-06 18:19:37,161 - INFO - Clicking course element...
+2026-02-06 18:19:38,582 - INFO - Clicked.
+2026-02-06 18:19:46,497 - INFO - Processing course index 576
+2026-02-06 18:19:47,484 - INFO - Extracted list data: ENGL 1763A
+2026-02-06 18:19:47,485 - INFO - Clicking course element...
+2026-02-06 18:19:48,906 - INFO - Clicked.
+2026-02-06 18:19:56,023 - INFO - Processing course index 577
+2026-02-06 18:19:56,947 - INFO - Extracted list data: ENGL 1763B
+2026-02-06 18:19:56,947 - INFO - Clicking course element...
+2026-02-06 18:19:58,398 - INFO - Clicked.
+2026-02-06 18:20:07,218 - INFO - Processing course index 578
+2026-02-06 18:20:07,965 - INFO - Extracted list data: ENGL 1780
+2026-02-06 18:20:07,966 - INFO - Clicking course element...
+2026-02-06 18:20:09,357 - INFO - Clicked.
+2026-02-06 18:20:20,091 - INFO - Processing course index 579
+2026-02-06 18:20:21,071 - INFO - Extracted list data: ENGL 1910F
+2026-02-06 18:20:21,071 - INFO - Clicking course element...
+2026-02-06 18:20:22,507 - INFO - Clicked.
+2026-02-06 18:20:29,677 - INFO - Processing course index 580
+2026-02-06 18:20:30,587 - INFO - Extracted list data: ENGL 1992
+2026-02-06 18:20:30,587 - INFO - Clicking course element...
+2026-02-06 18:20:32,008 - INFO - Clicked.
+2026-02-06 18:20:39,067 - INFO - Processing course index 581
+2026-02-06 18:20:40,103 - INFO - Extracted list data: ENGL 1994
+2026-02-06 18:20:40,103 - INFO - Clicking course element...
+2026-02-06 18:20:41,523 - INFO - Clicked.
+2026-02-06 18:20:48,516 - INFO - Processing course index 582
+2026-02-06 18:20:49,414 - INFO - Extracted list data: ENGL 2361H
+2026-02-06 18:20:49,414 - INFO - Clicking course element...
+2026-02-06 18:20:50,844 - INFO - Clicked.
+2026-02-06 18:20:58,050 - INFO - Processing course index 583
+2026-02-06 18:20:58,977 - INFO - Extracted list data: ENGL 2380
+2026-02-06 18:20:58,978 - INFO - Clicking course element...
+2026-02-06 18:21:00,386 - INFO - Clicked.
+2026-02-06 18:21:07,470 - INFO - Processing course index 584
+2026-02-06 18:21:08,382 - INFO - Extracted list data: ENGL 2562A
+2026-02-06 18:21:08,382 - INFO - Clicking course element...
+2026-02-06 18:21:09,769 - INFO - Clicked.
+2026-02-06 18:21:18,795 - INFO - Processing course index 585
+2026-02-06 18:21:19,874 - INFO - Extracted list data: ENGL 2580
+2026-02-06 18:21:19,874 - INFO - Clicking course element...
+2026-02-06 18:21:21,530 - INFO - Clicked.
+2026-02-06 18:21:31,026 - INFO - Processing course index 586
+2026-02-06 18:21:32,278 - INFO - Extracted list data: ENGL 2761Z
+2026-02-06 18:21:32,279 - INFO - Clicking course element...
+2026-02-06 18:21:33,931 - INFO - Clicked.
+2026-02-06 18:21:41,262 - INFO - Processing course index 587
+2026-02-06 18:21:42,656 - INFO - Extracted list data: ENGL 2762A
+2026-02-06 18:21:42,656 - INFO - Clicking course element...
+2026-02-06 18:21:44,150 - INFO - Clicked.
+2026-02-06 18:21:51,044 - INFO - Processing course index 588
+2026-02-06 18:21:52,548 - INFO - Extracted list data: ENGL 2762C
+2026-02-06 18:21:52,548 - INFO - Clicking course element...
+2026-02-06 18:21:54,216 - INFO - Clicked.
+2026-02-06 18:22:03,435 - INFO - Processing course index 589
+2026-02-06 18:22:04,473 - INFO - Extracted list data: ENGL 2780
+2026-02-06 18:22:04,473 - INFO - Clicking course element...
+2026-02-06 18:22:06,306 - INFO - Clicked.
+2026-02-06 18:22:17,619 - INFO - Processing course index 590
+2026-02-06 18:22:18,880 - INFO - Extracted list data: ENGL 2901T
+2026-02-06 18:22:18,880 - INFO - Clicking course element...
+2026-02-06 18:22:20,505 - INFO - Clicked.
+2026-02-06 18:22:27,693 - INFO - Processing course index 591
+2026-02-06 18:22:28,953 - INFO - Extracted list data: ENGL 2970
+2026-02-06 18:22:28,953 - INFO - Clicking course element...
+2026-02-06 18:22:30,422 - INFO - Clicked.
+2026-02-06 18:22:37,773 - INFO - Processing course index 592
+2026-02-06 18:22:38,997 - INFO - Extracted list data: ENGL 2990
+2026-02-06 18:22:38,997 - INFO - Clicking course element...
+2026-02-06 18:22:40,657 - INFO - Clicked.
+2026-02-06 18:22:47,947 - INFO - Processing course index 593
+2026-02-06 18:22:49,105 - INFO - Extracted list data: ENGN 0040
+2026-02-06 18:22:49,105 - INFO - Clicking course element...
+2026-02-06 18:22:50,744 - INFO - Clicked.
+2026-02-06 18:22:59,904 - INFO - Processing course index 594
+2026-02-06 18:23:01,452 - INFO - Extracted list data: ENGN 0061
+2026-02-06 18:23:01,452 - INFO - Clicking course element...
+2026-02-06 18:23:03,016 - INFO - Clicked.
+2026-02-06 18:23:10,227 - INFO - Processing course index 595
+2026-02-06 18:23:11,517 - INFO - Extracted list data: ENGN 0062
+2026-02-06 18:23:11,517 - INFO - Clicking course element...
+2026-02-06 18:23:13,147 - INFO - Clicked.
+2026-02-06 18:23:20,715 - INFO - Processing course index 596
+2026-02-06 18:23:22,043 - INFO - Extracted list data: ENGN 0120
+2026-02-06 18:23:22,044 - INFO - Clicking course element...
+2026-02-06 18:23:23,667 - INFO - Clicked.
+2026-02-06 18:23:30,790 - INFO - Processing course index 597
+2026-02-06 18:23:32,223 - INFO - Extracted list data: ENGN 0250
+2026-02-06 18:23:32,224 - INFO - Clicking course element...
+2026-02-06 18:23:33,835 - INFO - Clicked.
+2026-02-06 18:23:41,078 - INFO - Processing course index 598
+2026-02-06 18:23:42,169 - INFO - Extracted list data: ENGN 0520
+2026-02-06 18:23:42,169 - INFO - Clicking course element...
+2026-02-06 18:23:43,818 - INFO - Clicked.
+2026-02-06 18:23:52,897 - INFO - Processing course index 599
+2026-02-06 18:23:54,532 - INFO - Extracted list data: ENGN 0620
+2026-02-06 18:23:54,533 - INFO - Clicking course element...
+2026-02-06 18:23:56,263 - INFO - Clicked.
