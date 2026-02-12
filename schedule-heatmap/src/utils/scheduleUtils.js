@@ -113,17 +113,26 @@ export function calculateSlotEnrollment(courses, slotStartMinutes, slotEndMinute
 }
 
 /**
- * Get color based on enrollment count
+ * Get color based on enrollment count using a smooth spectrum
  */
 export function getEnrollmentColor(enrollment) {
-    if (enrollment === 0) return '#f5f5f5'; // Light gray
-    if (enrollment <= 20) return '#e3f2fd'; // Very light blue
-    if (enrollment <= 50) return '#90caf9'; // Light blue
-    if (enrollment <= 100) return '#42a5f5'; // Blue
-    if (enrollment <= 150) return '#1e88e5'; // Dark blue
-    if (enrollment <= 200) return '#1565c0'; // Darker blue
-    if (enrollment <= 300) return '#7e57c2'; // Purple
-    return '#d32f2f'; // Red for 300+
+    if (enrollment === 0) return '#f5f5f5'; // Light gray for empty slots
+
+    // Clamp enrollment to max of 2500
+    const normalized = Math.min(enrollment, 2500) / 2500;
+
+    // Create a smooth spectrum: blue -> cyan -> green -> yellow -> orange -> red
+    // Using HSL color space for smooth transitions
+    // Hue: 240 (blue) -> 0 (red)
+    const hue = 240 - (normalized * 240);
+
+    // Saturation: 70-100% (more saturated at higher values)
+    const saturation = 70 + (normalized * 30);
+
+    // Lightness: 85% (light) -> 45% (dark) for better contrast
+    const lightness = 85 - (normalized * 40);
+
+    return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
 }
 
 /**

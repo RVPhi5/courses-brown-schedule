@@ -62,35 +62,28 @@ function App() {
                     Showing enrollment density across {courses.length} courses
                 </p>
                 <div className="legend">
-                    <span className="legend-title">Enrollment:</span>
-                    <div className="legend-items">
-                        <div className="legend-item">
-                            <span className="legend-color" style={{ backgroundColor: '#e3f2fd' }}></span>
-                            <span>1-20</span>
-                        </div>
-                        <div className="legend-item">
-                            <span className="legend-color" style={{ backgroundColor: '#90caf9' }}></span>
-                            <span>21-50</span>
-                        </div>
-                        <div className="legend-item">
-                            <span className="legend-color" style={{ backgroundColor: '#42a5f5' }}></span>
-                            <span>51-100</span>
-                        </div>
-                        <div className="legend-item">
-                            <span className="legend-color" style={{ backgroundColor: '#1e88e5' }}></span>
-                            <span>101-150</span>
-                        </div>
-                        <div className="legend-item">
-                            <span className="legend-color" style={{ backgroundColor: '#1565c0' }}></span>
-                            <span>151-200</span>
-                        </div>
-                        <div className="legend-item">
-                            <span className="legend-color" style={{ backgroundColor: '#7e57c2' }}></span>
-                            <span>201-300</span>
-                        </div>
-                        <div className="legend-item">
-                            <span className="legend-color" style={{ backgroundColor: '#d32f2f' }}></span>
-                            <span>300+</span>
+                    <span className="legend-title">Enrollment Density:</span>
+                    <div className="legend-gradient">
+                        <div className="gradient-bar" style={{
+                            background: 'linear-gradient(to right, hsl(240, 70%, 85%), hsl(180, 85%, 70%), hsl(120, 92%, 55%), hsl(60, 100%, 50%), hsl(30, 100%, 50%), hsl(0, 100%, 45%))',
+                            width: '300px',
+                            height: '20px',
+                            borderRadius: '4px',
+                            border: '1px solid #bdbdbd'
+                        }}></div>
+                        <div className="gradient-labels" style={{
+                            display: 'flex',
+                            justifyContent: 'space-between',
+                            width: '300px',
+                            fontSize: '12px',
+                            marginTop: '5px'
+                        }}>
+                            <span>0</span>
+                            <span>500</span>
+                            <span>1000</span>
+                            <span>1500</span>
+                            <span>2000</span>
+                            <span>2500+</span>
                         </div>
                     </div>
                 </div>

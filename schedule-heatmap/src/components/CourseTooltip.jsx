@@ -15,8 +15,10 @@ function CourseTooltip({ courses, position, visible }) {
         <div
             className="course-tooltip"
             style={{
-                top: position.top,
-                left: position.left,
+                display: 'block',
+                position: 'fixed',
+                top: `${position.top}px`,
+                left: `${position.left}px`,
             }}
         >
             <div className="tooltip-header">

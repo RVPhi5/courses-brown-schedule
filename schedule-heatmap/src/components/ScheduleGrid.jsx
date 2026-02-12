@@ -9,18 +9,50 @@ function ScheduleGrid({ scheduleGrid, timeSlots }) {
     const [tooltip, setTooltip] = useState({
         visible: false,
         courses: [],
-        position: { top: 0, left: 0 }
+        position: { top: 0, left: 0 },
+        pinnedSlot: null
     });
 
-    const handleCellHover = (slot, dayIndex, element) => {
+    const handleCellClick = (slot, dayIndex, slotIndex, element) => {
+        // If clicking the same cell, close the tooltip
+        if (tooltip.pinnedSlot === `${dayIndex}-${slotIndex}`) {
+            setTooltip({
+                visible: false,
+                courses: [],
+                position: { top: 0, left: 0 },
+                pinnedSlot: null
+            });
+            return;
+        }
+
+        // If cell has no courses, close tooltip
         if (slot.courses.length === 0) {
-            setTooltip({ visible: false, courses: [], position: { top: 0, left: 0 } });
+            setTooltip({
+                visible: false,
+                courses: [],
+                position: { top: 0, left: 0 },
+                pinnedSlot: null
+            });
             return;
         }
 
         const rect = element.getBoundingClientRect();
-        const tooltipLeft = rect.right + 10;
-        const tooltipTop = rect.top;
+
+        // Position tooltip to the right of the cell
+        let tooltipLeft = rect.right + 10;
+        let tooltipTop = Math.max(10, rect.top); // At least 10px from top
+
+        // If tooltip would go off right edge, position it to the left instead
+        const tooltipWidth = 450; // max-width from CSS
+        if (tooltipLeft + tooltipWidth > window.innerWidth) {
+            tooltipLeft = rect.left - tooltipWidth - 10;
+        }
+
+        // Ensure tooltip doesn't go off bottom
+        const maxHeight = window.innerHeight * 0.8; // 80vh from CSS
+        if (tooltipTop + maxHeight > window.innerHeight) {
+            tooltipTop = window.innerHeight - maxHeight - 10;
+        }
 
         setTooltip({
             visible: true,
@@ -28,42 +60,40 @@ function ScheduleGrid({ scheduleGrid, timeSlots }) {
             position: {
                 top: tooltipTop,
                 left: tooltipLeft
-            }
+            },
+            pinnedSlot: `${dayIndex}-${slotIndex}`
         });
     };
 
-    const handleCellLeave = () => {
-        setTooltip({ visible: false, courses: [], position: { top: 0, left: 0 } });
-    };
-
-    const days = [0, 1, 2, 3, 4, 5, 6]; // Sunday through Saturday
+    const days = [1, 2, 3, 4, 5]; // Monday through Friday only
 
     return (
         <div className="schedule-grid-container">
             <div className="schedule-grid">
-                {/* Header row with day names */}
+                {/* Header row with time slots */}
                 <div className="grid-header">
-                    <div className="time-column-header">Time</div>
-                    {days.map(dayIndex => (
-                        <div key={dayIndex} className="day-header">
-                            {indexToDayName(dayIndex)}
+                    <div className="time-column-header">Day</div>
+                    {timeSlots.map((slot, slotIndex) => (
+                        <div key={slotIndex} className="day-header">
+                            {slot.displayTime}
                         </div>
                     ))}
                 </div>
 
-                {/* Time rows */}
-                {timeSlots.map((slot, slotIndex) => (
-                    <div key={slotIndex} className="time-row">
-                        <div className="time-label">{slot.displayTime}</div>
-                        {days.map(dayIndex => {
+                {/* Day rows */}
+                {days.map(dayIndex => (
+                    <div key={dayIndex} className="time-row">
+                        <div className="time-label">{indexToDayName(dayIndex)}</div>
+                        {timeSlots.map((slot, slotIndex) => {
                             const cellData = scheduleGrid[dayIndex][slotIndex];
                             return (
                                 <TimeSlotCell
                                     key={`${dayIndex}-${slotIndex}`}
                                     slot={cellData}
                                     dayIndex={dayIndex}
-                                    onHover={handleCellHover}
-                                    onLeave={handleCellLeave}
+                                    slotIndex={slotIndex}
+                                    onClick={handleCellClick}
+                                    isActive={tooltip.pinnedSlot === `${dayIndex}-${slotIndex}`}
                                 />
                             );
                         })}

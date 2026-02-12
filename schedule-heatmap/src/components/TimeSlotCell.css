@@ -1,26 +1,32 @@
 .time-slot-cell {
   width: 100%;
-  height: 40px;
+  min-width: 40px;
+  height: 35px;
   border: 1px solid #e0e0e0;
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   transition: all 0.2s ease;
   position: relative;
-  font-size: 11px;
+  font-size: 8px;
   font-weight: 500;
 }
 
-.time-slot-cell.has-classes {
+.time-slot-cell.has-content {
+  cursor: pointer;
   border-color: #bdbdbd;
 }
 
-.time-slot-cell.hovered {
-  border: 2px solid #1976d2;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+.time-slot-cell.has-content:hover {
+  opacity: 0.85;
+  transform: scale(1.02);
+}
+
+.time-slot-cell.active {
+  outline: 3px solid #1976d2;
+  outline-offset: -3px;
+  box-shadow: 0 0 10px rgba(25, 118, 210, 0.6);
   z-index: 10;
-  transform: scale(1.05);
 }
 
 .enrollment-count {
