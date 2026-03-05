@@ -4,18 +4,13 @@ on:
   push:
     branches: [main]
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    # Don't run when the workflow itself pushes (avoids infinite loop)
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -32,18 +27,13 @@ jobs:
           npm ci
           npm run build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: schedule-heatmap/dist
+      - name: Deploy to docs folder
+        run: |
+          rm -rf docs
+          mkdir docs
+          cp -r schedule-heatmap/dist/* docs/
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git diff --staged --quiet || (git commit -m "Deploy to GitHub Pages [skip ci]" && git push)
